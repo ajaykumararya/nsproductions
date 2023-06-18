@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <title>Comming Soon</title>
+        <style>
+            :root {
+    --B: #00eaff;
+    --light-shadow: #3b4949;
+    --dark-shadow: #0a1112;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .logo{
+      margin-bottom: 13vw;
+      margin-left: 3vw;
+      margin-top: 13px;
+      font-size: 20px;
+  }
+  .logo h1{
+      color: #fff;
+  }
+  #S{
+      color: red;
+  }
+  
+  body {
+    margin: 0;
+    background: rgb(3, 17, 27);
+  }
+  .main {
+    margin: 35vh;
+    display: grid;
+    grid-template-areas: "overlap";
+    place-content: center;
+    text-transform: uppercase;
+    height: 45vh;
+  }
+  .main:hover {
+      cursor: grab;
+  }
+  .fline,
+  .sline {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: #21231e;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+    font-size: 7vw;
+    grid-area: overlap;
+    letter-spacing: 2px;
+    -webkit-text-stroke: 3px transparent;
+  }
+  .fline {
+    background-image: repeating-linear-gradient(
+      105deg,
+      var(--B) 1%,
+      var(--dark-shadow) 5%,
+      var(--B) 12%
+    );
+    color: transparent;
+    filter: drop-shadow(5px 15px 15px rgb(35, 51, 52));
+    transform: scaleY(1.05);
+    transform-origin: top;
+  }
+  .sline {
+    background-image: repeating-linear-gradient(
+      5deg,
+      var(--B) 0%,
+      var(--light-shadow) 23%,
+      var(--B) 31%
+    );
+    color: #18191b;
+    transform: scale(1);
+  }
+  
+  
+        </style>
+    </head>
+    <body>
+        <nav class="logo">
+            <h1> NS<span id="S">Productions</span></h1>
+          </nav>
+          <div class="main">
+            <div class="fline">
+              <h1>Coming Soon...</h1>
+            </div>
+            <div class="sline">
+              <h1>Coming Soon...</h1>
+              <p>New Project</p>
+            </div>
+          </div>
+    </body>
+</html>
