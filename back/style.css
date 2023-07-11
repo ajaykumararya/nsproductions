@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Maven+Pro:wght@400;500;600;700;800;900&family=Merriweather:ital,wght@0,700;0,900;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Quicksand:wght@300;400;700&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Style+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;
+}
+html{
+    font-size: 16px;
+}
+:root{
+    /* --- for color start ---- */
+    --color1: #f01114;
+    --colorLight1: #f01114b8;
+    --white: white;
+    --black: black;
+    --lightBlue:#0000A0;
+    --color2: #868A08;
+    --blue: blue;
+    /* --- for color end ---- */
+
+    /* --- for font end ---- */
+
+}
+
+/* ---------------------- top bar css start ----------------------- */
+.top_bar .container .top_bar_inside_box{
+    background-color: var(--black);
+}
+.top_bar .top_bar_inside_box .nav .nav-item .linky{
+    background-color: var(--color1);
+    color: var(--white);
+    border-radius: 5px;
+    margin: 2px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all 0.3s linear;
+}
+.top_bar .top_bar_inside_box .nav .nav-item .linky:hover{
+    background-color: var(--colorLight1);
+}
+.top_bar .container .top_bar_inside_box .mobile_number li a{
+    color: var(--white)!important;
+}
+/* ---------------------- top bar css end ----------------------- */
+
+
+/* ---------------------- banner logo css start ----------------------- */
+.banner-logo .container .banner-logo-inside{
+    background-color: var(--color1);
+    padding: 20px 20px;
+}
+.banner-logo .container .banner-logo-inside .header-logo-name h1{
+    color: var(--white);
+    letter-spacing: 2px;
+    font-size: 4rem;
+}
+.banner-logo .container .banner-logo-inside .header-logo-name h4{
+    line-height: 15px;
+    font-size: 2rem;
+    color: var(--white);
+}
+/* ---------------------- banner logo css end ----------------------- */
+
+
+/* ---------------------- navigation css start ----------------------- */
+.navigation-bar .navbar{
+    background-color: var(--black);
+    padding: 0;
+}
+.navigation-bar .fa-bars{
+    padding: 4px 0px;
+    color: var(--black);
+}
+.navigation-bar .navbar-toggler-icon{
+    background-color: var(--color1);
+}
+.navigation-bar .navbar .navbar-nav li{
+    border-right: 1px solid var(--white);
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+.navigation-bar .navbar .navbar-nav li a{
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem;
+}
+/* ---------------------- navigation css end ----------------------- */
+
+
+/* ---------------------- tools css start ----------------------- */
+/*.tool .container h3{*/
+/*    font-weight: 700;*/
+/*    background-color: var(--lightBlue);*/
+/*    color: var(--white);*/
+/*    display: inline;*/
+/*    padding: 0.5rem 1.5rem;*/
+/*}*/
+.tool .container .tool-box{
+    /* background-color: var(--color2); */
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+/*.tool .container .tool-box h5{*/
+/*    font-weight: 700;*/
+/*    color: var(--white);*/
+/*    text-align: center;*/
+/*}*/
+/* ---------------------- tools css end ----------------------- */
+
+
+
+/* ---------------------- grid css start ----------------------- */
+.grid .container .grid-box{
+    border: 2px solid var(--color1);
+}
+.grid .container .grid-box .grid-heading h3{
+    background-color: var(--color1);
+    color: var(--white);
+    padding: 5px 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.grid .container .grid-box .grid-content-link{
+    padding: 0px 1rem;
+}
+.grid .container .grid-box .grid-content-link .nav{
+    list-style-type: disc;
+    padding: 16px;
+    width: 100%;
+    min-height: 350px;
+    overflow: hidden;
+}
+.grid .container .grid-box .grid-content-link .nav li{
+    padding-bottom: 0.2rem;
+}
+.grid .container .grid-box .grid-content-link .nav li a{
+    padding: 4px 0px!important;
+    color: var(--blue);
+    font-size: 1.1rem;
+    line-height: 17px;
+    font-weight: 500;
+    text-decoration: underline;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.grid .container .grid-box .grid-content-link .nav li a:hover{
+    color: var(--black);
+    cursor: pointer!important;
+}
+.grid .container .grid-box .grid-content-link h5{
+    color: var(--lightBlue);
+    font-weight: bold;
+    transition: all 0.3s linear;
+}
+.grid .container .grid-box .grid-content-link h5:hover{
+    color: var(--blue);
+    cursor: pointer!important;
+}
+/* ---------------------- grid css end ----------------------- */
+
+
+/* ---------------------- footer css start ----------------------- */
+
+.footer .container .footer-box .footer-text h4{
+    font-weight: 700;
+    color: var(--white);
+}
+.footer .container .footer-text-link ul li a{
+    padding: 0px 0px;
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 400;
+    transition: all 0.3s linear;
+}
+.footer .container .footer-text-link ul li a:hover{
+    color: var(--black);
+}
+/* ---------------------- footer css end ----------------------- */
+
+
+@media screen and (max-width: 991px){
+    .top_bar{
+        background-color: var(--black); 
+    }
+    .banner-logo{
+        background-color: var(--color1);
+    }
+    .navigation-bar{
+        background-color: var(--black);
+    }
+    .navigation-bar .navbar .navbar-nav li{
+        border-right:none;
+    }
+}
+@media screen and (max-width: 768px){
+    .top_bar .container .top_bar_inside_box{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 420px){
+    html{
+        font-size: 14px;
+    }
+}
+
+
+.footer-css{
+    background:var(--color1);
+    padding: 20px 50px;
+}
+.footer-css:after{
+    background:black;
+    height:30px;
+    content:' ';
+}
+.black-line{
+    
+    height: 40px;
+    background: black;
+
+}
