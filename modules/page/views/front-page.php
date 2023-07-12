@@ -9,10 +9,10 @@
 	<link rel="pingback" href="xmlrpc.html">
 	
 	<link type="text/css" media="all"
-		href="<?=base_url('assets/web')?>/cache/autoptimize/css/autoptimize_2dcc2edd08792112640c2ec193367a61.css" rel="stylesheet" />
+		href="<?= base_url('assets/web') ?>/cache/autoptimize/css/autoptimize_2dcc2edd08792112640c2ec193367a61.css" rel="stylesheet" />
 	<link type="text/css" media="only screen and (max-width: 768px)"
-		href="<?=base_url('assets/web')?>/cache/autoptimize/css/autoptimize_dcb2de333eec7ab4ae31385ed8d6a393.css" rel="stylesheet" />
-	<title>Recond &#8211; WordPress Theme</title>
+		href="<?= base_url('assets/web') ?>/cache/autoptimize/css/autoptimize_dcb2de333eec7ab4ae31385ed8d6a393.css" rel="stylesheet" />
+	<title>N.S. Producation's</title>
 	<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
 	<link rel="alternate" type="application/rss+xml" title="Recond &raquo; Feed" href="feed/index.html" />
 	<link rel="alternate" type="application/rss+xml" title="Recond &raquo; Comments Feed"
@@ -24,16 +24,16 @@
 	<link rel='stylesheet' id='lt-colorpicker-font-2-css'
 		href='http://fonts.googleapis.com/css?family=Lato%3A300%7CUbuntu%3A700&amp;ver=1.0#038;subset=latin'
 		type='text/css' media='all' />
-	<link rel='stylesheet' id='dashicons-css' href='<?=base_url('assets/web')?>/css/dashicons.min.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='dashicons-css' href='<?= base_url('assets/web') ?>/css/dashicons.min.css' type='text/css' media='all' />
 	<style id='recond-theme-style-inline-css' type='text/css'>
 		@font-face {
 			font-family: 'recond-fontello';
-			src: url('<?=base_url('assets/web')?>/uploads/2018/02/ltx-reconda714.eot?1.1.7');
-			src: url('<?=base_url('assets/web')?>/uploads/2018/02/ltx-reconda714.eot?1.1.7#iefix') format('embedded-opentype'),
-				url('<?=base_url('assets/web')?>/uploads/2018/02/ltx-reconda714.html?1.1.7') format('woff2'),
-				url('<?=base_url('assets/web')?>/uploads/2018/02/ltx-reconda714.woff?1.1.7') format('woff'),
-				url('<?=base_url('assets/web')?>/uploads/2018/02/ltx-reconda714.ttf?1.1.7') format('truetype'),
-				url('<?=base_url('assets/web')?>/uploads/2018/02/ltx-reconda714.svg?1.1.7#ltx-recond') format('svg');
+			src: url('<?= base_url('assets/web') ?>/uploads/2018/02/ltx-reconda714.eot?1.1.7');
+			src: url('<?= base_url('assets/web') ?>/uploads/2018/02/ltx-reconda714.eot?1.1.7#iefix') format('embedded-opentype'),
+				url('<?= base_url('assets/web') ?>/uploads/2018/02/ltx-reconda714.html?1.1.7') format('woff2'),
+				url('<?= base_url('assets/web') ?>/uploads/2018/02/ltx-reconda714.woff?1.1.7') format('woff'),
+				url('<?= base_url('assets/web') ?>/uploads/2018/02/ltx-reconda714.ttf?1.1.7') format('truetype'),
+				url('<?= base_url('assets/web') ?>/uploads/2018/02/ltx-reconda714.svg?1.1.7#ltx-recond') format('svg');
 			font-weight: normal;
 			font-style: normal;
 		}
@@ -58,28 +58,28 @@
 		}
 
 		.page-header {
-			background-image: url(<?=base_url('assets/web')?>/uploads/2018/02/inner_HEADER_02.jpg) !important;
+			background-image: url(<?= base_url('assets/web') ?>/uploads/2018/02/inner_HEADER_02.jpg) !important;
 		}
 
 		.ltx-footer-wrapper {
-			background-image: url(//recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/footer-bg.png) !important;
+			background-image: url(<?= base_url('assets/web') ?>/uploads/2018/02/footer-bg.png) !important;
 		}
 
 		nav.navbar .logo img {
-			max-height: 50px !important;
+			max-height: 192px !important;
 		}
 	</style>
-	<!--[if lt IE 9]><link rel='stylesheet' id='vc_lte_ie9-css'  href='http://recond.like-themes.com/<?=base_url('assets/web')?>/plugins/js_composer/assets/css/vc_lte_ie9.min.css' type='text/css' media='screen' /> <![endif]-->
+	<!--[if lt IE 9]><link rel='stylesheet' id='vc_lte_ie9-css'  href='<?= base_url('assets/web') ?>/plugins/js_composer/assets/css/vc_lte_ie9.min.css' type='text/css' media='screen' /> <![endif]-->
 	<style id='js_composer_front-inline-css' type='text/css'>
 		.vc_custom_1562165797244 {
-			background-image: url(<?=base_url('assets/web')?>/uploads/2018/02/testimonials_parallaxc10d.jpg?id=9917) !important;
+			background-image: url(<?= base_url('assets/web') ?>/uploads/2018/02/testimonials_parallaxc10d.jpg?id=9917) !important;
 			background-position: center !important;
 			background-repeat: no-repeat !important;
 			background-size: cover !important;
 		}
 
 		.vc_custom_1561931227641 {
-			background-image: url(http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/noise_50.png?id=9953) !important;
+			background-image: url(<?= base_url('assets/web') ?>/uploads/2018/02/noise_50.png?id=9953) !important;
 			background-position: 0 0 !important;
 			background-repeat: repeat !important;
 		}
@@ -95,19 +95,19 @@
 		}
 
 		.vc_custom_1562006047693 {
-			background-image: url(http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2019/06/long_wave.png?id=10016) !important;
+			background-image: url(<?= base_url('assets/web') ?>/uploads/2019/06/long_wave.png?id=10016) !important;
 		}
 	</style>
 	<link rel='stylesheet' id='recond-google-fonts-css'
 		href='http://fonts.googleapis.com/css?family=Hind:400,400i,700%7CPoppins:900,400,600,700%7CArchitects+Daughter:400&amp;subset=latin'
 		type='text/css' media='all' />
 	<link rel='stylesheet' id='recond-fontello-css'
-		href='<?=base_url('assets/web')?>/cache/autoptimize/css/autoptimize_single_a7551582d70db62981ca2dd4ca572866.css' type='text/css'
+		href='<?= base_url('assets/web') ?>/cache/autoptimize/css/autoptimize_single_a7551582d70db62981ca2dd4ca572866.css' type='text/css'
 		media='all' />
-	<script type='text/javascript' src='<?=base_url('assets/web')?>/js/jquery/jquery.js'></script>
+	<script type='text/javascript' src='<?= base_url('assets/web') ?>/js/jquery/jquery.js'></script>
 	<link rel='https://api.w.org/' href='wp-json/index.html' />
 	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.html?rsd" />
-	<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="<?=base_url('assets/web')?>/wlwmanifest.xml" />
+	<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="<?= base_url('assets/web') ?>/wlwmanifest.xml" />
 	<meta name="generator" content="WordPress 4.9.23" />
 	<meta name="generator" content="WooCommerce 3.6.7" />
 	<link rel="canonical" href="index.html" />
@@ -126,11 +126,11 @@
 		</style>
 	</noscript>
 	<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
-	<link rel="icon" href="<?=base_url('assets/web')?>/uploads/2018/02/cropped-favicon-48x48.png" sizes="32x32" />
-	<link rel="icon" href="<?=base_url('assets/web')?>/uploads/2018/02/cropped-favicon-275x275.png" sizes="192x192" />
-	<link rel="apple-touch-icon-precomposed" href="<?=base_url('assets/web')?>/uploads/2018/02/cropped-favicon-275x275.png" />
+	<link rel="icon" href="<?= base_url('assets/web') ?>/uploads/2018/02/cropped-favicon-48x48.png" sizes="32x32" />
+	<link rel="icon" href="<?= base_url('assets/web') ?>/uploads/2018/02/cropped-favicon-275x275.png" sizes="192x192" />
+	<link rel="apple-touch-icon-precomposed" href="<?= base_url('assets/web') ?>/uploads/2018/02/cropped-favicon-275x275.png" />
 	<meta name="msapplication-TileImage"
-		content="http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/cropped-favicon-275x275.png" /> <noscript>
+		content="<?= base_url('assets/web') ?>/uploads/2018/02/cropped-favicon-275x275.png" /> <noscript>
 		<style>
 			.wpb_animate_when_almost_visible {
 				opacity: 1;
@@ -148,213 +148,91 @@
 			<div id="nav-wrapper" class="navbar-layout-transparent">
 				<nav class="navbar" data-spy="affix" data-offset-top="0">
 					<div class="container">
-						<div class="navbar-logo "> <a class="logo" href="index.html"><img
-									src="<?=base_url('assets/web')?>/uploads/2018/02/logo_1x_white.png" alt="Recond"
-									srcset="//recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/logo_1x_white.png 1x,//recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/logo_2x_white.png 2x"></a>
+						<div class="navbar-logo "> 
+							
+							<a class="logo" href="<?= base_url() ?>"><img
+									src="<?= base_url('upload/white-logo.png') ?>" alt="Logo"
+									srcset="<?= base_url('upload/white-logo.png') ?>"></a>
 						</div>
 						<div id="navbar" class="navbar-collapse collapse" data-mobile-screen-width="1200">
 							<div class="toggle-wrap"> <a class="logo" href="index.html"><img
-										src="<?=base_url('assets/web')?>/uploads/2018/02/logo_1x_white.png" alt="Recond"
-										srcset="//recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/logo_1x_white.png 1x,//recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/logo_2x_white.png 2x"></a>
+										src="<?= base_url('upload/white-logo.png') ?>" alt="Logo"
+										srcset="<?= base_url('upload/white-logo.png') ?>"></a>
 								<button type="button" class="navbar-toggle collapsed"> <span
 										class="close">&times;</span> </button>
 								<div class="clearfix"></div>
 							</div>
 							<ul id="menu-main-menu" class="nav navbar-nav">
 								<li id="menu-item-8571"
-									class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-8571">
-									<a href="#"><span>Home</span></a>
-									<ul class="sub-menu">
-										<li id="menu-item-7927"
-											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-7925 current_page_item menu-item-7927">
-											<a href="index.html"><span>Studio</span></a></li>
-										<li id="menu-item-10090"
-											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10090">
-											<a href="homepage-dj/index.html"><span>DJ</span></a></li>
-									</ul>
+									class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item menu-item-8571"><a
+										href="<?= base_url() ?>"><span>Home</span></a>
 								</li>
 								<li id="menu-item-3557"
 									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3557">
-									<a><span>About us</span></a>
+									<a><span>Music Production</span></a>
 									<ul class="sub-menu">
 										<li id="menu-item-57"
 											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57">
-											<a href="testimonials/index.html"><span>Testimonials</span></a></li>
+											<a href="testimonials/index.html"><span>Category 1</span></a>
+										</li>
 										<li id="menu-item-750"
 											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-750">
-											<a href="team/index.html"><span>Team</span></a></li>
+											<a href="team/index.html"><span>Category 2</span></a>
+										</li>
 										<li id="menu-item-2364"
 											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2364">
-											<a href="faq/index.html"><span>FAQ</span></a></li>
-										<li id="menu-item-2584"
-											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2584">
-											<a href="404-page.html"><span>404 Page</span></a></li>
-										<li id="menu-item-60"
-											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-60">
-											<a><span>Gallery</span></a>
-											<ul class="sub-menu">
-												<li id="menu-item-47"
-													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47">
-													<a href="gallery-2-columns/index.html"><span>Gallery
-															2-columns</span></a></li>
-												<li id="menu-item-48"
-													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48">
-													<a href="gallery-3-columns/index.html"><span>Gallery
-															3-columns</span></a></li>
-												<li id="menu-item-49"
-													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49">
-													<a href="gallery-4-columns/index.html"><span>Gallery
-															4-columns</span></a></li>
-											</ul>
+											<a href="faq/index.html"><span>Category 3</span></a>
 										</li>
 									</ul>
 								</li>
 								<li id="menu-item-619"
 									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-619">
-									<a href="#"><span>Products</span></a>
+									<a href="#"><span>Video Production</span></a>
 									<ul class="sub-menu">
 										<li id="menu-item-623"
 											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-623">
-											<a href="shop/index.html"><span>Shop</span></a></li>
+											<a href="shop/index.html"><span>Category</span></a></li>
 										<li id="menu-item-622"
 											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-622">
-											<a href="cart/index.html"><span>Cart</span></a></li>
+											<a href="cart/index.html"><span>Category</span></a></li>
 										<li id="menu-item-621"
 											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-621">
-											<a href="checkout/index.html"><span>Checkout</span></a></li>
+											<a href="checkout/index.html"><span>Category</span></a></li>
 										<li id="menu-item-620"
 											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-620">
-											<a href="my-account/index.html"><span>My account</span></a></li>
+											<a href="my-account/index.html"><span>Category</span></a></li>
 									</ul>
 								</li>
 								<li id="menu-item-59"
 									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-59">
-									<a><span>Blog</span></a>
+									<a><span>Weddings</span></a>
 									<ul class="sub-menu">
-										<li id="menu-item-3976"
-											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3976">
-											<a href="#"><span>Blog with Sidebar</span></a>
-											<ul class="sub-menu">
-												<li id="menu-item-43"
-													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43">
-													<a href="classic-blog-with-right-sidebar/index.html"><span>Classic
-															Right Sidebar</span></a></li>
-												<li id="menu-item-7844"
-													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7844">
-													<a href="blog-3-columns-with-right-sidebar/index.html"><span>Masonry
-															with Right Sidebar</span></a></li>
-											</ul>
-										</li>
-										<li id="menu-item-3977"
-											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3977">
-											<a href="#"><span>Blog without Sidebar</span></a>
-											<ul class="sub-menu">
-												<li id="menu-item-3975"
-													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3975">
-													<a href="classic-blog-without-sidebar/index.html"><span>Classic
-															Blog</span></a></li>
-												<li id="menu-item-45"
-													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45">
-													<a href="blog-two-columns-without-sidebar/index.html"><span>Masonry
-															2-Columns</span></a></li>
-												<li id="menu-item-44"
-													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44">
-													<a href="blog-three-columns/index.html"><span>Masonry
-															3-Columns</span></a></li>
-											</ul>
-										</li>
+										<li id="menu-item-623"
+											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-623">
+											<a href="shop/index.html"><span>Category</span></a></li>
+										<li id="menu-item-622"
+											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-622">
+											<a href="cart/index.html"><span>Category</span></a></li>
+										<li id="menu-item-621"
+											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-621">
+											<a href="checkout/index.html"><span>Category</span></a></li>
+										<li id="menu-item-620"
+											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-620">
+											<a href="my-account/index.html"><span>Category</span></a></li>
 									</ul>
 								</li>
 								<li id="menu-item-46"
 									class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46"><a
-										href="contacts/index.html"><span>Contacts</span></a></li>
-								<li id="menu-item-61"
-									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-has-mega-menu menu-item-61">
-									<a href="#"><span>Pages</span></a>
-									<div class="mega-menu">
-										<ul class="sub-menu mega-menu-row">
-											<li id="menu-item-783"
-												class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children mega-menu-col menu-item-783">
-												<a><span>Typography</span></a>
-												<ul class="sub-menu sub-menu-has-icons">
-													<li id="menu-item-597"
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-597">
-														<a href="elements/headers/index.html"
-															class="fa fa-font"><span>Headers</span></a></li>
-													<li id="menu-item-579"
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-579">
-														<a href="elements/text/index.html"
-															class="fa fa-align-left"><span>Text</span></a></li>
-													<li id="menu-item-594"
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-594">
-														<a href="elements/text_columns/index.html"
-															class="fa fa-columns"><span>Text Columns</span></a></li>
-													<li id="menu-item-643"
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-643">
-														<a href="elements/table/index.html"
-															class="fa fa-table"><span>Table</span></a></li>
-													<li id="menu-item-588"
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-588">
-														<a href="elements/separators/index.html"
-															class="fa fa-arrows-h"><span>Separators</span></a></li>
-												</ul>
-											</li>
-											<li id="menu-item-784"
-												class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children mega-menu-col menu-item-784">
-												<a><span>Form Elements</span></a>
-												<ul class="sub-menu sub-menu-has-icons">
-													<li id="menu-item-555"
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-555">
-														<a href="elements/buttons/index.html"
-															class="fa fa-mouse-pointer"><span>Buttons</span></a></li>
-													<li id="menu-item-705"
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-705">
-														<a href="elements/forms/index.html"
-															class="fa fa-edit"><span>Forms</span></a></li>
-												</ul>
-											</li>
-											<li id="menu-item-785"
-												class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children mega-menu-col menu-item-785">
-												<a><span>Shortcodes</span></a>
-												<ul class="sub-menu sub-menu-has-icons">
-													<li id="menu-item-527"
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-527">
-														<a href="elements/accordions/index.html"
-															class="fa fa-list"><span>Accordions</span></a></li>
-													<li id="menu-item-538"
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-538">
-														<a href="elements/alert/index.html"
-															class="fa fa-exclamation-triangle"><span>Alerts</span></a>
-													</li>
-													<li id="menu-item-568"
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-568">
-														<a href="elements/tabs/index.html"
-															class="fa fa-th-large"><span>Tabs</span></a></li>
-													<li id="menu-item-56"
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-56">
-														<a href="elements/shortcodes/index.html"
-															class="fa fa-caret-square-o-right"><span>Shortcodes</span></a>
-													</li>
-												</ul>
-											</li>
-											<li id="menu-item-786"
-												class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children mega-menu-col menu-item-786">
-												<a href="#"><span>Lists</span></a>
-												<ul class="sub-menu sub-menu-has-icons">
-													<li id="menu-item-675"
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-675">
-														<a href="elements/icons-page/index.html"
-															class="fa fa-gratipay"><span>Icons</span></a></li>
-													<li id="menu-item-562"
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-562">
-														<a href="elements/list/index.html"
-															class="fa fa-twitter"><span>Lists and Social
-																Icons</span></a></li>
-												</ul>
-											</li>
-										</ul>
-									</div>
+										href="contacts/index.html"><span>Podcast</span></a>
 								</li>
+								<li id="menu-item-46"
+									class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46"><a
+										href="contacts/index.html"><span>About Us</span></a>
+								</li>
+								<li id="menu-item-46"
+									class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46"><a
+										href="contacts/index.html"><span>Contact</span></a>
+									</li>
 							</ul>
 							<div class="ltx-navbar-icons">
 								<ul>
@@ -418,12 +296,17 @@
 									<div class="wpb_column vc_column_container vc_col-sm-12">
 										<div class="vc_column-inner">
 											<div class="wpb_wrapper">
+												<!--
+
+				OLD images Array
+				["http://recond.like-themes.com/wp-content/uploads/2018/02/SLIDE_01.jpg","http://recond.like-themes.com/wp-content/uploads/2018/02/SLIDE_02.jpg","http://recond.like-themes.com/wp-content/uploads/2018/02/SLIDE_03.jpg","http://recond.like-themes.com/wp-content/uploads/2018/02/SLIDE_01.jpg"]
+		-->
 												<div class="slider-zoom  zoom-default  zoom-style-default  zoom-origin-center-center  overlay-dots  bullets-true  zoom-content-effect-fade-top  zoom-margin-top "
 													id="like_sc_zoom_slider_2121994968" data-zs-prev="" data-zs-next=""
 													data-zs-overlay="dots" data-zs-initzoom="1.2" data-zs-speed="20000"
 													data-zs-interval="6500" data-zs-switchSpeed="7000" data-zs-arrows=""
 													data-zs-bullets="true"
-													data-zs-src='[&#34;http:\/\/recond.like-themes.com\/wp-content\/uploads\/2018\/02\/SLIDE_01.jpg&#34;,&#34;http:\/\/recond.like-themes.com\/wp-content\/uploads\/2018\/02\/SLIDE_02.jpg&#34;,&#34;http:\/\/recond.like-themes.com\/wp-content\/uploads\/2018\/02\/SLIDE_03.jpg&#34;]'>
+													data-zs-src='["<?=base_url('upload/first-slider.jpg')?>","http://recond.like-themes.com/wp-content/uploads/2018/02/SLIDE_02.jpg","http://recond.like-themes.com/wp-content/uploads/2018/02/SLIDE_03.jpg","http://recond.like-themes.com/wp-content/uploads/2018/02/SLIDE_01.jpg"]'>
 													<div class="ltx-social ltx-nav-second ltx-type-">
 														<ul>
 															<li><a href="#" target="_self"><span
@@ -470,17 +353,20 @@
 																		<div class="wpb_wrapper">
 																			<div class="heading  heading-large header-outline-subheader align-left color-white transform-default icon-type-hidden heading-tag-h1"
 																				id="like_sc_header_1411300917">
-																				<h1 class="header "><span
+																				<h1 class="header ">
+																					<span
 																						class="ltx-mobile"><span>
-																							Recording </span>
-																						Studio</span><span
-																						class="ltx-desktop"><svg
+																							Video </span>
+																						Production</span><span
+																						class="ltx-desktop">
+																						<svg
 																							viewbox="0 0 1100 120"><text
 																								x="2px" y="50%"
 																								alignment-baseline="central"
 																								dominant-baseline="middle">
-																								Recording </text></svg>
-																						Studio</span></h1>
+																								Video </text></svg>
+																								Production</span>
+																				</h1>
 																			</div>
 																			<div class="es-resp">
 																				<div class="visible-xl"
@@ -503,13 +389,7 @@
 																					<div
 																						class="wpb_text_column wpb_content_element ">
 																						<div class="wpb_wrapper">
-																							<p>Curabitur fermentum vitae
-																								eros eu porta. Curabitur
-																								et risus egestas,
-																								vulputate lacus eget,
-																								sodales odio. Mauris
-																								suscipit eleifend
-																								mauris.</p>
+																							<p></p>
 																						</div>
 																					</div>
 																				</div>
@@ -585,8 +465,7 @@
 																	</div>
 																</div>
 															</div>
-															<div
-																class="vc_row wpb_row vc_row-fluid vc_row-o-content-bottom vc_row-flex text-align-center-sm-ms">
+															<div class="vc_row wpb_row vc_row-fluid vc_row-o-content-bottom vc_row-flex text-align-center-sm-ms">
 																<div
 																	class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-12 vc_col-md-12">
 																	<div class="vc_column-inner">
@@ -707,10 +586,8 @@
 																	</div>
 																</div>
 															</div>
-															<div
-																class="vc_row wpb_row vc_row-fluid vc_row-o-content-bottom vc_row-flex text-align-center-sm-ms">
-																<div
-																	class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-12 vc_col-md-12">
+															<div class="vc_row wpb_row vc_row-fluid vc_row-o-content-bottom vc_row-flex text-align-center-sm-ms">
+																<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-12 vc_col-md-12">
 																	<div class="vc_column-inner">
 																		<div class="wpb_wrapper">
 																			<div class="heading  heading-large header-outline-subheader align-left color-white transform-default icon-type-hidden heading-tag-h1"
@@ -724,6 +601,127 @@
 																								alignment-baseline="central"
 																								dominant-baseline="middle">
 																								Audio </text></svg>
+																						Mastering</span></h1>
+																			</div>
+																			<div class="es-resp">
+																				<div class="visible-xl"
+																					style="height: 32px;"></div>
+																				<div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+																					style="height: 32px;"></div>
+																				<div class="visible-md"
+																					style="height: 32px;"></div>
+																				<div class="visible-sm "
+																					style="height: 32px;"></div>
+																				<div class="visible-ms"
+																					style="height: 32px;"></div>
+																				<div class="visible-xs"
+																					style="height: 32px;"></div>
+																			</div>
+																			<div class="ltx-content-width col-align-left"
+																				id="like_sc_content_width_1124098910"
+																				style="max-width: 600px">
+																				<div class="ltx-wrapper">
+																					<div
+																						class="wpb_text_column wpb_content_element ">
+																						<div class="wpb_wrapper">
+																							<p>Curabitur fermentum vitae
+																								eros eu porta. Curabitur
+																								et risus egestas,
+																								vulputate lacus eget,
+																								sodales odio. Mauris
+																								suscipit eleifend
+																								mauris.</p>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="es-resp">
+																				<div class="visible-xl"
+																					style="height: 64px;"></div>
+																				<div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+																					style="height: 64px;"></div>
+																				<div class="visible-md"
+																					style="height: 64px;"></div>
+																				<div class="visible-sm "
+																					style="height: 64px;"></div>
+																				<div class="visible-ms"
+																					style="height: 64px;"></div>
+																				<div class="visible-xs"
+																					style="height: 64px;"></div>
+																			</div>
+																			<div class="btn-wrap btn-wrap-inline"> <a
+																					href="#"
+																					class="btn  btn-main color-hover-white"
+																					id="like_sc_button_600571446">Read
+																					more</a></div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="vc_row wpb_row vc_row-fluid">
+																<div
+																	class="wpb_column vc_column_container vc_col-sm-12">
+																	<div class="vc_column-inner">
+																		<div class="wpb_wrapper">
+																			<div class="es-resp">
+																				<div class="visible-xl"
+																					style="height: 250px;"></div>
+																				<div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+																					style="height: 250px;"></div>
+																				<div class="visible-md"
+																					style="height: 250px;"></div>
+																				<div class="visible-sm "
+																					style="height: 200px;"></div>
+																				<div class="visible-ms"
+																					style="height: 100px;"></div>
+																				<div class="visible-xs"
+																					style="height: 100px;"></div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+														<div class="ltx-zs-slider-inner  ltx-zs-slide-3" data-index="3">
+															<div class="vc_row wpb_row vc_row-fluid">
+																<div
+																	class="wpb_column vc_column_container vc_col-sm-12">
+																	<div class="vc_column-inner">
+																		<div class="wpb_wrapper">
+																			<div class="es-resp">
+																				<div class="visible-xl"
+																					style="height: 150px;"></div>
+																				<div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+																					style="height: 150px;"></div>
+																				<div class="visible-md"
+																					style="height: 150px;"></div>
+																				<div class="visible-sm "
+																					style="height: 150px;"></div>
+																				<div class="visible-ms"
+																					style="height: 100px;"></div>
+																				<div class="visible-xs"
+																					style="height: 100px;"></div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="vc_row wpb_row vc_row-fluid vc_row-o-content-bottom vc_row-flex text-align-center-sm-ms">
+																<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-12 vc_col-md-12">
+																	<div class="vc_column-inner">
+																		<div class="wpb_wrapper">
+																			<div class="heading  heading-large header-outline-subheader align-left color-white transform-default icon-type-hidden heading-tag-h1"
+																				id="like_sc_header_1088581134">
+																				<h1 class="header "><span
+																						class="ltx-mobile"><span> My Audio
+																						</span> Mastering</span><span
+																						class="ltx-desktop"><svg
+																							viewbox="0 0 1100 120"><text
+																								x="2px" y="50%"
+																								alignment-baseline="central"
+																								dominant-baseline="middle">
+																								My Audio </text></svg>
 																						Mastering</span></h1>
 																			</div>
 																			<div class="es-resp">
@@ -854,7 +852,7 @@
 																	<div class="ltx-inner"> <a
 																			href="services/voice-recording-2-2/index.html"
 																			class="photo"><img width="750" height="525"
-																				src="<?=base_url('assets/web')?>/uploads/2018/02/serv_01-750x525.jpg"
+																				src="<?= base_url('assets/web') ?>/uploads/2018/02/serv_01-750x525.jpg"
 																				class="attachment-recond-service size-recond-service wp-post-image"
 																				alt="" /><span
 																				class="ltx-plus"></span></a>
@@ -875,7 +873,7 @@
 																	<div class="ltx-inner"> <a
 																			href="services/sound-mixing-2/index.html"
 																			class="photo"><img width="750" height="525"
-																				src="<?=base_url('assets/web')?>/uploads/2018/02/serv_02-750x525.jpg"
+																				src="<?= base_url('assets/web') ?>/uploads/2018/02/serv_02-750x525.jpg"
 																				class="attachment-recond-service size-recond-service wp-post-image"
 																				alt="" /><span
 																				class="ltx-plus"></span></a>
@@ -896,10 +894,10 @@
 																	<div class="ltx-inner"> <a
 																			href="services/track-mastering-2/index.html"
 																			class="photo"><img width="750" height="525"
-																				src="<?=base_url('assets/web')?>/uploads/2018/02/serv_03-750x525.jpg"
+																				src="<?= base_url('assets/web') ?>/uploads/2018/02/serv_03-750x525.jpg"
 																				class="attachment-recond-service size-recond-service wp-post-image"
 																				alt=""
-																				srcset="http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/serv_03-750x525.jpg 750w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/serv_03-300x211.jpg 300w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/serv_03-360x253.jpg 360w"
+																				srcset="<?= base_url('assets/web') ?>/uploads/2018/02/serv_03-750x525.jpg 750w, <?= base_url('assets/web') ?>/uploads/2018/02/serv_03-300x211.jpg 300w, <?= base_url('assets/web') ?>/uploads/2018/02/serv_03-360x253.jpg 360w"
 																				sizes="(max-width: 750px) 100vw, 750px" /><span
 																				class="ltx-plus"></span></a>
 																		<div class="description"> <a
@@ -919,7 +917,7 @@
 																	<div class="ltx-inner"> <a
 																			href="services/audio-editing/index.html"
 																			class="photo"><img width="750" height="525"
-																				src="<?=base_url('assets/web')?>/uploads/2018/02/serv_04_sound_design-750x525.jpg"
+																				src="<?= base_url('assets/web') ?>/uploads/2018/02/serv_04_sound_design-750x525.jpg"
 																				class="attachment-recond-service size-recond-service wp-post-image"
 																				alt="" /><span
 																				class="ltx-plus"></span></a>
@@ -940,7 +938,7 @@
 																	<div class="ltx-inner"> <a
 																			href="services/live-recording/index.html"
 																			class="photo"><img width="750" height="525"
-																				src="<?=base_url('assets/web')?>/uploads/2018/02/serv_05_arrangement_creating-750x525.jpg"
+																				src="<?= base_url('assets/web') ?>/uploads/2018/02/serv_05_arrangement_creating-750x525.jpg"
 																				class="attachment-recond-service size-recond-service wp-post-image"
 																				alt="" /><span
 																				class="ltx-plus"></span></a>
@@ -961,10 +959,10 @@
 																	<div class="ltx-inner"> <a
 																			href="services/mobile-studio/index.html"
 																			class="photo"><img width="750" height="525"
-																				src="<?=base_url('assets/web')?>/uploads/2018/02/serv_06_radio_promotion-750x525.jpg"
+																				src="<?= base_url('assets/web') ?>/uploads/2018/02/serv_06_radio_promotion-750x525.jpg"
 																				class="attachment-recond-service size-recond-service wp-post-image"
 																				alt=""
-																				srcset="http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/serv_06_radio_promotion-750x525.jpg 750w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/serv_06_radio_promotion-300x209.jpg 300w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/serv_06_radio_promotion-360x251.jpg 360w"
+																				srcset="<?= base_url('assets/web') ?>/uploads/2018/02/serv_06_radio_promotion-750x525.jpg 750w, <?= base_url('assets/web') ?>/uploads/2018/02/serv_06_radio_promotion-300x209.jpg 300w, <?= base_url('assets/web') ?>/uploads/2018/02/serv_06_radio_promotion-360x251.jpg 360w"
 																				sizes="(max-width: 750px) 100vw, 750px" /><span
 																				class="ltx-plus"></span></a>
 																		<div class="description"> <a
@@ -1145,9 +1143,9 @@
 														<figure class="wpb_wrapper vc_figure">
 															<div class="vc_single_image-wrapper   vc_box_border_grey">
 																<img width="493" height="452"
-																	src="<?=base_url('assets/web')?>/uploads/2019/06/about-monitors.png"
+																	src="<?= base_url('assets/web') ?>/uploads/2019/06/about-monitors.png"
 																	class="vc_single_image-img attachment-full" alt=""
-																	srcset="http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2019/06/about-monitors.png 493w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2019/06/about-monitors-300x275.png 300w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2019/06/about-monitors-360x330.png 360w"
+																	srcset="<?= base_url('assets/web') ?>/uploads/2019/06/about-monitors.png 493w, <?= base_url('assets/web') ?>/uploads/2019/06/about-monitors-300x275.png 300w, <?= base_url('assets/web') ?>/uploads/2019/06/about-monitors-360x330.png 360w"
 																	sizes="(max-width: 493px) 100vw, 493px" /></div>
 														</figure>
 													</div>
@@ -1156,9 +1154,9 @@
 														<figure class="wpb_wrapper vc_figure">
 															<div class="vc_single_image-wrapper   vc_box_border_grey">
 																<img width="700" height="222"
-																	src="<?=base_url('assets/web')?>/uploads/2019/06/about-waves.png"
+																	src="<?= base_url('assets/web') ?>/uploads/2019/06/about-waves.png"
 																	class="vc_single_image-img attachment-full" alt=""
-																	srcset="http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2019/06/about-waves.png 700w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2019/06/about-waves-300x95.png 300w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2019/06/about-waves-360x114.png 360w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2019/06/about-waves-600x190.png 600w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2019/06/about-waves-550x174.png 550w"
+																	srcset="<?= base_url('assets/web') ?>/uploads/2019/06/about-waves.png 700w, <?= base_url('assets/web') ?>/uploads/2019/06/about-waves-300x95.png 300w, <?= base_url('assets/web') ?>/uploads/2019/06/about-waves-360x114.png 360w, <?= base_url('assets/web') ?>/uploads/2019/06/about-waves-600x190.png 600w, <?= base_url('assets/web') ?>/uploads/2019/06/about-waves-550x174.png 550w"
 																	sizes="(max-width: 700px) 100vw, 700px" /></div>
 														</figure>
 													</div>
@@ -1228,7 +1226,7 @@
 														<div data-depth="0.3" data-direction="horizontal"
 															class="ltx-layer ltx-layer-2 ltx-floating-image"> <img
 																class="ltx-floating-image" alt="bg"
-																src="<?=base_url('assets/web')?>/uploads/2019/06/about-guitar.png"></div>
+																src="<?= base_url('assets/web') ?>/uploads/2019/06/about-guitar.png"></div>
 													</div>
 												</div>
 											</div>
@@ -1336,7 +1334,7 @@
 														<div class="ltx-portfolio-items">
 															<div class="row item ltx-portfolio-10067">
 																<div class="col-xl-6 col-lg-7 col-xl-offset-2 col-lg-offset-0 ltx-image"
-																	style="background-image: url(<?=base_url('assets/web')?>/uploads/2018/02/02_hall.jpg)">
+																	style="background-image: url(<?= base_url('assets/web') ?>/uploads/2018/02/02_hall.jpg)">
 																</div>
 																<div class="col-xl-4 col-lg-5 ltx-content">
 																	<div class="ltx-content-inner">
@@ -1469,7 +1467,7 @@
 															</div>
 															<div class="row item ltx-portfolio-10069">
 																<div class="col-xl-6 col-lg-7 col-xl-offset-2 col-lg-offset-0 ltx-image"
-																	style="background-image: url(<?=base_url('assets/web')?>/uploads/2018/02/01_hall.jpg)">
+																	style="background-image: url(<?= base_url('assets/web') ?>/uploads/2018/02/01_hall.jpg)">
 																</div>
 																<div class="col-xl-4 col-lg-5 ltx-content">
 																	<div class="ltx-content-inner">
@@ -1602,7 +1600,7 @@
 															</div>
 															<div class="row item ltx-portfolio-10068">
 																<div class="col-xl-6 col-lg-7 col-xl-offset-2 col-lg-offset-0 ltx-image"
-																	style="background-image: url(<?=base_url('assets/web')?>/uploads/2018/02/03_hall.jpg)">
+																	style="background-image: url(<?= base_url('assets/web') ?>/uploads/2018/02/03_hall.jpg)">
 																</div>
 																<div class="col-xl-4 col-lg-5 ltx-content">
 																	<div class="ltx-content-inner">
@@ -1735,7 +1733,7 @@
 															</div>
 															<div class="row item ltx-portfolio-10066">
 																<div class="col-xl-6 col-lg-7 col-xl-offset-2 col-lg-offset-0 ltx-image"
-																	style="background-image: url(<?=base_url('assets/web')?>/uploads/2018/02/04_hall.jpg)">
+																	style="background-image: url(<?= base_url('assets/web') ?>/uploads/2018/02/04_hall.jpg)">
 																</div>
 																<div class="col-xl-4 col-lg-5 ltx-content">
 																	<div class="ltx-content-inner">
@@ -1868,7 +1866,7 @@
 															</div>
 															<div class="row item ltx-portfolio-4451">
 																<div class="col-xl-6 col-lg-7 col-xl-offset-2 col-lg-offset-0 ltx-image"
-																	style="background-image: url(<?=base_url('assets/web')?>/uploads/2018/02/05_hall.jpg)">
+																	style="background-image: url(<?= base_url('assets/web') ?>/uploads/2018/02/05_hall.jpg)">
 																</div>
 																<div class="col-xl-4 col-lg-5 ltx-content">
 																	<div class="ltx-content-inner">
@@ -2079,9 +2077,9 @@
 																				style="width: 100%;"
 																				controls="controls">
 																				<source type="audio/mpeg"
-																					src="<?=base_url('assets/web')?>/uploads/2017/09/acid15f62.mp3?_=6" />
+																					src="<?= base_url('assets/web') ?>/uploads/2017/09/acid15f62.mp3?_=6" />
 																				<a
-																					href="<?=base_url('assets/web')?>/uploads/2017/09/acid1.mp3">http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2017/09/acid1.mp3</a>
+																					href="<?= base_url('assets/web') ?>/uploads/2017/09/acid1.mp3"><?= base_url('assets/web') ?>/uploads/2017/09/acid1.mp3</a>
 																			</audio></div>
 																	</div>
 																</div>
@@ -2102,9 +2100,9 @@
 																				style="width: 100%;"
 																				controls="controls">
 																				<source type="audio/mpeg"
-																					src="<?=base_url('assets/web')?>/uploads/2019/07/trance_acid1884.mp3?_=7" />
+																					src="<?= base_url('assets/web') ?>/uploads/2019/07/trance_acid1884.mp3?_=7" />
 																				<a
-																					href="<?=base_url('assets/web')?>/uploads/2019/07/trance_acid.mp3">http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2019/07/trance_acid.mp3</a>
+																					href="<?= base_url('assets/web') ?>/uploads/2019/07/trance_acid.mp3"><?= base_url('assets/web') ?>/uploads/2019/07/trance_acid.mp3</a>
 																			</audio></div>
 																	</div>
 																</div>
@@ -2125,9 +2123,9 @@
 																				style="width: 100%;"
 																				controls="controls">
 																				<source type="audio/mpeg"
-																					src="<?=base_url('assets/web')?>/uploads/2019/07/penetrationfa5c.mp3?_=8" />
+																					src="<?= base_url('assets/web') ?>/uploads/2019/07/penetrationfa5c.mp3?_=8" />
 																				<a
-																					href="<?=base_url('assets/web')?>/uploads/2019/07/penetration.mp3">http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2019/07/penetration.mp3</a>
+																					href="<?= base_url('assets/web') ?>/uploads/2019/07/penetration.mp3"><?= base_url('assets/web') ?>/uploads/2019/07/penetration.mp3</a>
 																			</audio></div>
 																	</div>
 																</div>
@@ -2148,9 +2146,9 @@
 																				style="width: 100%;"
 																				controls="controls">
 																				<source type="audio/mpeg"
-																					src="<?=base_url('assets/web')?>/uploads/2019/07/acid1cb89.mp3?_=9" />
+																					src="<?= base_url('assets/web') ?>/uploads/2019/07/acid1cb89.mp3?_=9" />
 																				<a
-																					href="<?=base_url('assets/web')?>/uploads/2019/07/acid1.mp3">http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2019/07/acid1.mp3</a>
+																					href="<?= base_url('assets/web') ?>/uploads/2019/07/acid1.mp3"><?= base_url('assets/web') ?>/uploads/2019/07/acid1.mp3</a>
 																			</audio></div>
 																	</div>
 																</div>
@@ -2171,9 +2169,9 @@
 																				style="width: 100%;"
 																				controls="controls">
 																				<source type="audio/mpeg"
-																					src="<?=base_url('assets/web')?>/uploads/2019/07/acid2de89.mp3?_=10" />
+																					src="<?= base_url('assets/web') ?>/uploads/2019/07/acid2de89.mp3?_=10" />
 																				<a
-																					href="<?=base_url('assets/web')?>/uploads/2019/07/acid2.mp3">http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2019/07/acid2.mp3</a>
+																					href="<?= base_url('assets/web') ?>/uploads/2019/07/acid2.mp3"><?= base_url('assets/web') ?>/uploads/2019/07/acid2.mp3</a>
 																			</audio></div>
 																	</div>
 																</div>
@@ -2206,9 +2204,9 @@
 														<figure class="wpb_wrapper vc_figure">
 															<div class="vc_single_image-wrapper   vc_box_border_grey">
 																<img width="383" height="600"
-																	src="<?=base_url('assets/web')?>/uploads/2019/07/tracks-left.png"
+																	src="<?= base_url('assets/web') ?>/uploads/2019/07/tracks-left.png"
 																	class="vc_single_image-img attachment-full" alt=""
-																	srcset="http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2019/07/tracks-left.png 383w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2019/07/tracks-left-192x300.png 192w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2019/07/tracks-left-360x564.png 360w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2019/07/tracks-left-351x550.png 351w"
+																	srcset="<?= base_url('assets/web') ?>/uploads/2019/07/tracks-left.png 383w, <?= base_url('assets/web') ?>/uploads/2019/07/tracks-left-192x300.png 192w, <?= base_url('assets/web') ?>/uploads/2019/07/tracks-left-360x564.png 360w, <?= base_url('assets/web') ?>/uploads/2019/07/tracks-left-351x550.png 351w"
 																	sizes="(max-width: 383px) 100vw, 383px" /></div>
 														</figure>
 													</div>
@@ -2217,9 +2215,9 @@
 														<figure class="wpb_wrapper vc_figure">
 															<div class="vc_single_image-wrapper   vc_box_border_grey">
 																<img width="369" height="600"
-																	src="<?=base_url('assets/web')?>/uploads/2019/07/tracks-right.png"
+																	src="<?= base_url('assets/web') ?>/uploads/2019/07/tracks-right.png"
 																	class="vc_single_image-img attachment-full" alt=""
-																	srcset="http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2019/07/tracks-right.png 369w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2019/07/tracks-right-185x300.png 185w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2019/07/tracks-right-360x585.png 360w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2019/07/tracks-right-338x550.png 338w"
+																	srcset="<?= base_url('assets/web') ?>/uploads/2019/07/tracks-right.png 369w, <?= base_url('assets/web') ?>/uploads/2019/07/tracks-right-185x300.png 185w, <?= base_url('assets/web') ?>/uploads/2019/07/tracks-right-360x585.png 360w, <?= base_url('assets/web') ?>/uploads/2019/07/tracks-right-338x550.png 338w"
 																	sizes="(max-width: 369px) 100vw, 369px" /></div>
 														</figure>
 													</div>
@@ -2290,42 +2288,42 @@
 															<div class="swiper-wrapper">
 																<div class="swiper-slide">
 																	<div class="photo"> <span><img
-																				src="<?=base_url('assets/web')?>/uploads/2018/02/artist_01-480x630.jpg"
+																				src="<?= base_url('assets/web') ?>/uploads/2018/02/artist_01-480x630.jpg"
 																				class="image" alt="Tina Montana"></span>
 																		<h5 class="header">Tina Montana</h5>
 																	</div>
 																</div>
 																<div class="swiper-slide">
 																	<div class="photo"> <span><img
-																				src="<?=base_url('assets/web')?>/uploads/2018/02/artist_02-480x630.jpg"
+																				src="<?= base_url('assets/web') ?>/uploads/2018/02/artist_02-480x630.jpg"
 																				class="image" alt="Kanny Rodman"></span>
 																		<h5 class="header">Kanny Rodman</h5>
 																	</div>
 																</div>
 																<div class="swiper-slide">
 																	<div class="photo"> <span><img
-																				src="<?=base_url('assets/web')?>/uploads/2018/02/artist_03-480x630.jpg"
+																				src="<?= base_url('assets/web') ?>/uploads/2018/02/artist_03-480x630.jpg"
 																				class="image" alt="Lady Marta"></span>
 																		<h5 class="header">Lady Marta</h5>
 																	</div>
 																</div>
 																<div class="swiper-slide">
 																	<div class="photo"> <span><img
-																				src="<?=base_url('assets/web')?>/uploads/2018/02/artist_04-480x630.jpg"
+																				src="<?= base_url('assets/web') ?>/uploads/2018/02/artist_04-480x630.jpg"
 																				class="image" alt="Moran T"></span>
 																		<h5 class="header">Moran T</h5>
 																	</div>
 																</div>
 																<div class="swiper-slide">
 																	<div class="photo"> <span><img
-																				src="<?=base_url('assets/web')?>/uploads/2018/02/artist_05-480x630.jpg"
+																				src="<?= base_url('assets/web') ?>/uploads/2018/02/artist_05-480x630.jpg"
 																				class="image" alt="Hattie Cash"></span>
 																		<h5 class="header">Hattie Cash</h5>
 																	</div>
 																</div>
 																<div class="swiper-slide">
 																	<div class="photo"> <span><img
-																				src="<?=base_url('assets/web')?>/uploads/2018/02/artist_06-480x630.jpg"
+																				src="<?= base_url('assets/web') ?>/uploads/2018/02/artist_06-480x630.jpg"
 																				class="image"
 																				alt="Matthaios Balfour"></span>
 																		<h5 class="header">Matthaios Balfour</h5>
@@ -2333,14 +2331,14 @@
 																</div>
 																<div class="swiper-slide">
 																	<div class="photo"> <span><img
-																				src="<?=base_url('assets/web')?>/uploads/2018/02/artist_07-480x630.jpg"
+																				src="<?= base_url('assets/web') ?>/uploads/2018/02/artist_07-480x630.jpg"
 																				class="image" alt="Hal Wesley"></span>
 																		<h5 class="header">Hal Wesley</h5>
 																	</div>
 																</div>
 																<div class="swiper-slide">
 																	<div class="photo"> <span><img
-																				src="<?=base_url('assets/web')?>/uploads/2018/02/artist_08-480x630.jpg"
+																				src="<?= base_url('assets/web') ?>/uploads/2018/02/artist_08-480x630.jpg"
 																				class="image"
 																				alt="Melanie Allan"></span>
 																		<h5 class="header">Melanie Allan</h5>
@@ -2348,7 +2346,7 @@
 																</div>
 																<div class="swiper-slide">
 																	<div class="photo"> <span><img
-																				src="<?=base_url('assets/web')?>/uploads/2018/02/artist_09-480x630.jpg"
+																				src="<?= base_url('assets/web') ?>/uploads/2018/02/artist_09-480x630.jpg"
 																				class="image" alt="Blake Lance"></span>
 																		<h5 class="header">Blake Lance</h5>
 																	</div>
@@ -2385,37 +2383,37 @@
 														<div class=" col-md-2  col-sm-4 col-ms-6 col-xs-6  partners-wrap  center-flex"
 															data-mh="ltx-partners">
 															<div class="partners-item item center-flex"><a href="#"><img
-																		src="<?=base_url('assets/web')?>/uploads/2019/06/partner-1.png"
+																		src="<?= base_url('assets/web') ?>/uploads/2019/06/partner-1.png"
 																		class="image" alt="."></a></div>
 														</div>
 														<div class=" col-md-2  col-sm-4 col-ms-6 col-xs-6  partners-wrap  center-flex"
 															data-mh="ltx-partners">
 															<div class="partners-item item center-flex"><a href="#"><img
-																		src="<?=base_url('assets/web')?>/uploads/2019/06/partner-2.png"
+																		src="<?= base_url('assets/web') ?>/uploads/2019/06/partner-2.png"
 																		class="image" alt="."></a></div>
 														</div>
 														<div class=" col-md-2  col-sm-4 col-ms-6 col-xs-6  partners-wrap  center-flex"
 															data-mh="ltx-partners">
 															<div class="partners-item item center-flex"><a href="#"><img
-																		src="<?=base_url('assets/web')?>/uploads/2019/06/partner-3.png"
+																		src="<?= base_url('assets/web') ?>/uploads/2019/06/partner-3.png"
 																		class="image" alt="."></a></div>
 														</div>
 														<div class=" col-md-2  col-sm-4 col-ms-6 col-xs-6  partners-wrap  center-flex"
 															data-mh="ltx-partners">
 															<div class="partners-item item center-flex"><a href="#"><img
-																		src="<?=base_url('assets/web')?>/uploads/2019/06/partner-4.png"
+																		src="<?= base_url('assets/web') ?>/uploads/2019/06/partner-4.png"
 																		class="image" alt="."></a></div>
 														</div>
 														<div class=" col-md-2  col-sm-4 col-ms-6 col-xs-6  partners-wrap  center-flex"
 															data-mh="ltx-partners">
 															<div class="partners-item item center-flex"><a href="#"><img
-																		src="<?=base_url('assets/web')?>/uploads/2019/06/partner-5.png"
+																		src="<?= base_url('assets/web') ?>/uploads/2019/06/partner-5.png"
 																		class="image" alt="."></a></div>
 														</div>
 														<div class=" col-md-2  col-sm-4 col-ms-6 col-xs-6  partners-wrap  center-flex"
 															data-mh="ltx-partners">
 															<div class="partners-item item center-flex"><a href="#"><img
-																		src="<?=base_url('assets/web')?>/uploads/2019/06/partner-6.png"
+																		src="<?= base_url('assets/web') ?>/uploads/2019/06/partner-6.png"
 																		class="image" alt="."></a></div>
 														</div>
 													</div>
@@ -2737,113 +2735,113 @@
 													data-autoplay="1500" id="like_sc_gallery_129709007">
 													<div class="swiper-wrapper">
 														<div class="swiper-slide"> <a
-																href="<?=base_url('assets/web')?>/uploads/2018/02/gallery_01.jpg"
+																href="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_01.jpg"
 																class="swipebox photo "> <span> <img width="275"
 																		height="275"
-																		src="<?=base_url('assets/web')?>/uploads/2018/02/gallery_01-275x275.jpg"
+																		src="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_01-275x275.jpg"
 																		class="attachment-recond-gallery-grid size-recond-gallery-grid"
 																		alt=""
-																		srcset="http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_01-275x275.jpg 275w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_01-150x150.jpg 150w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_01-300x300.jpg 300w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_01-768x768.jpg 768w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_01-1024x1024.jpg 1024w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_01-360x360.jpg 360w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_01-600x600.jpg 600w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_01-100x100.jpg 100w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_01-24x24.jpg 24w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_01-48x48.jpg 48w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_01-96x96.jpg 96w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_01-50x50.jpg 50w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_01-110x110.jpg 110w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_01-800x800.jpg 800w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_01-550x550.jpg 550w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_01.jpg 1400w"
+																		srcset="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_01-275x275.jpg 275w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_01-150x150.jpg 150w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_01-300x300.jpg 300w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_01-768x768.jpg 768w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_01-1024x1024.jpg 1024w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_01-360x360.jpg 360w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_01-600x600.jpg 600w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_01-100x100.jpg 100w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_01-24x24.jpg 24w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_01-48x48.jpg 48w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_01-96x96.jpg 96w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_01-50x50.jpg 50w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_01-110x110.jpg 110w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_01-800x800.jpg 800w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_01-550x550.jpg 550w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_01.jpg 1400w"
 																		sizes="(max-width: 275px) 100vw, 275px" />
 																</span> </a></div>
 														<div class="swiper-slide"> <a
-																href="<?=base_url('assets/web')?>/uploads/2018/02/gallery_11.jpg"
+																href="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_11.jpg"
 																class="swipebox photo "> <span> <img width="275"
 																		height="275"
-																		src="<?=base_url('assets/web')?>/uploads/2018/02/gallery_11-275x275.jpg"
+																		src="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_11-275x275.jpg"
 																		class="attachment-recond-gallery-grid size-recond-gallery-grid"
 																		alt=""
-																		srcset="http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_11-275x275.jpg 275w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_11-150x150.jpg 150w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_11-300x300.jpg 300w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_11-768x768.jpg 768w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_11-1024x1024.jpg 1024w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_11-360x360.jpg 360w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_11-600x600.jpg 600w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_11-100x100.jpg 100w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_11-24x24.jpg 24w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_11-48x48.jpg 48w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_11-96x96.jpg 96w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_11-50x50.jpg 50w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_11-110x110.jpg 110w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_11-800x800.jpg 800w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_11-550x550.jpg 550w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_11.jpg 1400w"
+																		srcset="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_11-275x275.jpg 275w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_11-150x150.jpg 150w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_11-300x300.jpg 300w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_11-768x768.jpg 768w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_11-1024x1024.jpg 1024w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_11-360x360.jpg 360w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_11-600x600.jpg 600w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_11-100x100.jpg 100w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_11-24x24.jpg 24w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_11-48x48.jpg 48w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_11-96x96.jpg 96w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_11-50x50.jpg 50w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_11-110x110.jpg 110w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_11-800x800.jpg 800w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_11-550x550.jpg 550w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_11.jpg 1400w"
 																		sizes="(max-width: 275px) 100vw, 275px" />
 																</span> </a></div>
 														<div class="swiper-slide"> <a
-																href="<?=base_url('assets/web')?>/uploads/2018/02/gallery_10.jpg"
+																href="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_10.jpg"
 																class="swipebox photo "> <span> <img width="275"
 																		height="275"
-																		src="<?=base_url('assets/web')?>/uploads/2018/02/gallery_10-275x275.jpg"
+																		src="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_10-275x275.jpg"
 																		class="attachment-recond-gallery-grid size-recond-gallery-grid"
 																		alt=""
-																		srcset="http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_10-275x275.jpg 275w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_10-150x150.jpg 150w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_10-300x300.jpg 300w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_10-768x768.jpg 768w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_10-1024x1024.jpg 1024w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_10-360x360.jpg 360w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_10-600x600.jpg 600w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_10-100x100.jpg 100w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_10-24x24.jpg 24w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_10-48x48.jpg 48w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_10-96x96.jpg 96w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_10-50x50.jpg 50w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_10-110x110.jpg 110w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_10-800x800.jpg 800w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_10-550x550.jpg 550w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_10.jpg 1400w"
+																		srcset="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_10-275x275.jpg 275w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_10-150x150.jpg 150w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_10-300x300.jpg 300w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_10-768x768.jpg 768w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_10-1024x1024.jpg 1024w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_10-360x360.jpg 360w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_10-600x600.jpg 600w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_10-100x100.jpg 100w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_10-24x24.jpg 24w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_10-48x48.jpg 48w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_10-96x96.jpg 96w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_10-50x50.jpg 50w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_10-110x110.jpg 110w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_10-800x800.jpg 800w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_10-550x550.jpg 550w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_10.jpg 1400w"
 																		sizes="(max-width: 275px) 100vw, 275px" />
 																</span> </a></div>
 														<div class="swiper-slide"> <a
-																href="<?=base_url('assets/web')?>/uploads/2018/02/gallery_09.jpg"
+																href="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_09.jpg"
 																class="swipebox photo "> <span> <img width="275"
 																		height="275"
-																		src="<?=base_url('assets/web')?>/uploads/2018/02/gallery_09-275x275.jpg"
+																		src="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_09-275x275.jpg"
 																		class="attachment-recond-gallery-grid size-recond-gallery-grid"
 																		alt=""
-																		srcset="http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_09-275x275.jpg 275w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_09-150x150.jpg 150w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_09-300x300.jpg 300w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_09-768x768.jpg 768w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_09-1024x1024.jpg 1024w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_09-360x360.jpg 360w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_09-600x600.jpg 600w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_09-100x100.jpg 100w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_09-24x24.jpg 24w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_09-48x48.jpg 48w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_09-96x96.jpg 96w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_09-50x50.jpg 50w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_09-110x110.jpg 110w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_09-800x800.jpg 800w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_09-550x550.jpg 550w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_09.jpg 1400w"
+																		srcset="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_09-275x275.jpg 275w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_09-150x150.jpg 150w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_09-300x300.jpg 300w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_09-768x768.jpg 768w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_09-1024x1024.jpg 1024w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_09-360x360.jpg 360w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_09-600x600.jpg 600w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_09-100x100.jpg 100w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_09-24x24.jpg 24w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_09-48x48.jpg 48w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_09-96x96.jpg 96w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_09-50x50.jpg 50w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_09-110x110.jpg 110w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_09-800x800.jpg 800w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_09-550x550.jpg 550w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_09.jpg 1400w"
 																		sizes="(max-width: 275px) 100vw, 275px" />
 																</span> </a></div>
 														<div class="swiper-slide"> <a
-																href="<?=base_url('assets/web')?>/uploads/2018/02/gallery_08.jpg"
+																href="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_08.jpg"
 																class="swipebox photo "> <span> <img width="275"
 																		height="275"
-																		src="<?=base_url('assets/web')?>/uploads/2018/02/gallery_08-275x275.jpg"
+																		src="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_08-275x275.jpg"
 																		class="attachment-recond-gallery-grid size-recond-gallery-grid"
 																		alt=""
-																		srcset="http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_08-275x275.jpg 275w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_08-150x150.jpg 150w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_08-300x300.jpg 300w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_08-768x768.jpg 768w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_08-1024x1024.jpg 1024w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_08-360x360.jpg 360w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_08-600x600.jpg 600w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_08-100x100.jpg 100w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_08-24x24.jpg 24w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_08-48x48.jpg 48w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_08-96x96.jpg 96w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_08-50x50.jpg 50w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_08-110x110.jpg 110w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_08-800x800.jpg 800w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_08-550x550.jpg 550w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_08.jpg 1400w"
+																		srcset="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_08-275x275.jpg 275w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_08-150x150.jpg 150w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_08-300x300.jpg 300w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_08-768x768.jpg 768w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_08-1024x1024.jpg 1024w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_08-360x360.jpg 360w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_08-600x600.jpg 600w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_08-100x100.jpg 100w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_08-24x24.jpg 24w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_08-48x48.jpg 48w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_08-96x96.jpg 96w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_08-50x50.jpg 50w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_08-110x110.jpg 110w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_08-800x800.jpg 800w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_08-550x550.jpg 550w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_08.jpg 1400w"
 																		sizes="(max-width: 275px) 100vw, 275px" />
 																</span> </a></div>
 														<div class="swiper-slide"> <a
-																href="<?=base_url('assets/web')?>/uploads/2018/02/gallery_07.jpg"
+																href="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_07.jpg"
 																class="swipebox photo "> <span> <img width="275"
 																		height="275"
-																		src="<?=base_url('assets/web')?>/uploads/2018/02/gallery_07-275x275.jpg"
+																		src="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_07-275x275.jpg"
 																		class="attachment-recond-gallery-grid size-recond-gallery-grid"
 																		alt=""
-																		srcset="http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_07-275x275.jpg 275w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_07-150x150.jpg 150w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_07-300x300.jpg 300w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_07-768x768.jpg 768w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_07-1024x1024.jpg 1024w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_07-360x360.jpg 360w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_07-600x600.jpg 600w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_07-100x100.jpg 100w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_07-24x24.jpg 24w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_07-48x48.jpg 48w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_07-96x96.jpg 96w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_07-50x50.jpg 50w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_07-110x110.jpg 110w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_07-800x800.jpg 800w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_07-550x550.jpg 550w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_07.jpg 1400w"
+																		srcset="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_07-275x275.jpg 275w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_07-150x150.jpg 150w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_07-300x300.jpg 300w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_07-768x768.jpg 768w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_07-1024x1024.jpg 1024w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_07-360x360.jpg 360w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_07-600x600.jpg 600w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_07-100x100.jpg 100w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_07-24x24.jpg 24w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_07-48x48.jpg 48w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_07-96x96.jpg 96w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_07-50x50.jpg 50w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_07-110x110.jpg 110w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_07-800x800.jpg 800w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_07-550x550.jpg 550w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_07.jpg 1400w"
 																		sizes="(max-width: 275px) 100vw, 275px" />
 																</span> </a></div>
 														<div class="swiper-slide"> <a
-																href="<?=base_url('assets/web')?>/uploads/2018/02/gallery_06.jpg"
+																href="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_06.jpg"
 																class="swipebox photo "> <span> <img width="275"
 																		height="275"
-																		src="<?=base_url('assets/web')?>/uploads/2018/02/gallery_06-275x275.jpg"
+																		src="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_06-275x275.jpg"
 																		class="attachment-recond-gallery-grid size-recond-gallery-grid"
 																		alt=""
-																		srcset="http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_06-275x275.jpg 275w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_06-150x150.jpg 150w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_06-300x300.jpg 300w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_06-768x768.jpg 768w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_06-1024x1024.jpg 1024w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_06-360x360.jpg 360w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_06-600x600.jpg 600w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_06-100x100.jpg 100w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_06-24x24.jpg 24w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_06-48x48.jpg 48w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_06-96x96.jpg 96w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_06-50x50.jpg 50w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_06-110x110.jpg 110w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_06-800x800.jpg 800w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_06-550x550.jpg 550w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_06.jpg 1400w"
+																		srcset="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_06-275x275.jpg 275w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_06-150x150.jpg 150w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_06-300x300.jpg 300w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_06-768x768.jpg 768w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_06-1024x1024.jpg 1024w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_06-360x360.jpg 360w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_06-600x600.jpg 600w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_06-100x100.jpg 100w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_06-24x24.jpg 24w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_06-48x48.jpg 48w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_06-96x96.jpg 96w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_06-50x50.jpg 50w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_06-110x110.jpg 110w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_06-800x800.jpg 800w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_06-550x550.jpg 550w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_06.jpg 1400w"
 																		sizes="(max-width: 275px) 100vw, 275px" />
 																</span> </a></div>
 														<div class="swiper-slide"> <a
-																href="<?=base_url('assets/web')?>/uploads/2018/02/gallery_05.jpg"
+																href="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_05.jpg"
 																class="swipebox photo "> <span> <img width="275"
 																		height="275"
-																		src="<?=base_url('assets/web')?>/uploads/2018/02/gallery_05-275x275.jpg"
+																		src="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_05-275x275.jpg"
 																		class="attachment-recond-gallery-grid size-recond-gallery-grid"
 																		alt=""
-																		srcset="http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_05-275x275.jpg 275w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_05-150x150.jpg 150w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_05-300x300.jpg 300w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_05-768x768.jpg 768w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_05-1024x1024.jpg 1024w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_05-360x360.jpg 360w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_05-600x600.jpg 600w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_05-100x100.jpg 100w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_05-24x24.jpg 24w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_05-48x48.jpg 48w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_05-96x96.jpg 96w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_05-50x50.jpg 50w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_05-110x110.jpg 110w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_05-800x800.jpg 800w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_05-550x550.jpg 550w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_05.jpg 1400w"
+																		srcset="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_05-275x275.jpg 275w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_05-150x150.jpg 150w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_05-300x300.jpg 300w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_05-768x768.jpg 768w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_05-1024x1024.jpg 1024w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_05-360x360.jpg 360w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_05-600x600.jpg 600w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_05-100x100.jpg 100w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_05-24x24.jpg 24w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_05-48x48.jpg 48w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_05-96x96.jpg 96w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_05-50x50.jpg 50w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_05-110x110.jpg 110w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_05-800x800.jpg 800w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_05-550x550.jpg 550w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_05.jpg 1400w"
 																		sizes="(max-width: 275px) 100vw, 275px" />
 																</span> </a></div>
 														<div class="swiper-slide"> <a
-																href="<?=base_url('assets/web')?>/uploads/2018/02/gallery_04.jpg"
+																href="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_04.jpg"
 																class="swipebox photo "> <span> <img width="275"
 																		height="275"
-																		src="<?=base_url('assets/web')?>/uploads/2018/02/gallery_04-275x275.jpg"
+																		src="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_04-275x275.jpg"
 																		class="attachment-recond-gallery-grid size-recond-gallery-grid"
 																		alt=""
-																		srcset="http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_04-275x275.jpg 275w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_04-150x150.jpg 150w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_04-300x300.jpg 300w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_04-768x768.jpg 768w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_04-1024x1024.jpg 1024w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_04-360x360.jpg 360w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_04-600x600.jpg 600w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_04-100x100.jpg 100w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_04-24x24.jpg 24w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_04-48x48.jpg 48w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_04-96x96.jpg 96w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_04-50x50.jpg 50w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_04-110x110.jpg 110w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_04-800x800.jpg 800w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_04-550x550.jpg 550w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_04.jpg 1400w"
+																		srcset="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_04-275x275.jpg 275w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_04-150x150.jpg 150w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_04-300x300.jpg 300w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_04-768x768.jpg 768w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_04-1024x1024.jpg 1024w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_04-360x360.jpg 360w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_04-600x600.jpg 600w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_04-100x100.jpg 100w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_04-24x24.jpg 24w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_04-48x48.jpg 48w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_04-96x96.jpg 96w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_04-50x50.jpg 50w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_04-110x110.jpg 110w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_04-800x800.jpg 800w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_04-550x550.jpg 550w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_04.jpg 1400w"
 																		sizes="(max-width: 275px) 100vw, 275px" />
 																</span> </a></div>
 														<div class="swiper-slide"> <a
-																href="<?=base_url('assets/web')?>/uploads/2018/02/gallery_03.jpg"
+																href="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_03.jpg"
 																class="swipebox photo "> <span> <img width="275"
 																		height="275"
-																		src="<?=base_url('assets/web')?>/uploads/2018/02/gallery_03-275x275.jpg"
+																		src="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_03-275x275.jpg"
 																		class="attachment-recond-gallery-grid size-recond-gallery-grid"
 																		alt=""
-																		srcset="http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_03-275x275.jpg 275w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_03-150x150.jpg 150w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_03-300x300.jpg 300w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_03-768x768.jpg 768w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_03-1024x1024.jpg 1024w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_03-360x360.jpg 360w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_03-600x600.jpg 600w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_03-100x100.jpg 100w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_03-24x24.jpg 24w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_03-48x48.jpg 48w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_03-96x96.jpg 96w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_03-50x50.jpg 50w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_03-110x110.jpg 110w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_03-800x800.jpg 800w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_03-550x550.jpg 550w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_03.jpg 1400w"
+																		srcset="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_03-275x275.jpg 275w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_03-150x150.jpg 150w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_03-300x300.jpg 300w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_03-768x768.jpg 768w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_03-1024x1024.jpg 1024w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_03-360x360.jpg 360w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_03-600x600.jpg 600w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_03-100x100.jpg 100w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_03-24x24.jpg 24w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_03-48x48.jpg 48w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_03-96x96.jpg 96w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_03-50x50.jpg 50w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_03-110x110.jpg 110w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_03-800x800.jpg 800w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_03-550x550.jpg 550w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_03.jpg 1400w"
 																		sizes="(max-width: 275px) 100vw, 275px" />
 																</span> </a></div>
 														<div class="swiper-slide"> <a
-																href="<?=base_url('assets/web')?>/uploads/2018/02/gallery_02.jpg"
+																href="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_02.jpg"
 																class="swipebox photo "> <span> <img width="275"
 																		height="275"
-																		src="<?=base_url('assets/web')?>/uploads/2018/02/gallery_02-275x275.jpg"
+																		src="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_02-275x275.jpg"
 																		class="attachment-recond-gallery-grid size-recond-gallery-grid"
 																		alt=""
-																		srcset="http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_02-275x275.jpg 275w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_02-150x150.jpg 150w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_02-300x300.jpg 300w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_02-768x768.jpg 768w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_02-1024x1024.jpg 1024w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_02-360x360.jpg 360w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_02-600x600.jpg 600w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_02-100x100.jpg 100w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_02-24x24.jpg 24w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_02-48x48.jpg 48w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_02-96x96.jpg 96w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_02-50x50.jpg 50w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_02-110x110.jpg 110w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_02-800x800.jpg 800w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_02-550x550.jpg 550w, http://recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/gallery_02.jpg 1400w"
+																		srcset="<?= base_url('assets/web') ?>/uploads/2018/02/gallery_02-275x275.jpg 275w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_02-150x150.jpg 150w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_02-300x300.jpg 300w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_02-768x768.jpg 768w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_02-1024x1024.jpg 1024w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_02-360x360.jpg 360w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_02-600x600.jpg 600w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_02-100x100.jpg 100w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_02-24x24.jpg 24w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_02-48x48.jpg 48w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_02-96x96.jpg 96w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_02-50x50.jpg 50w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_02-110x110.jpg 110w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_02-800x800.jpg 800w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_02-550x550.jpg 550w, <?= base_url('assets/web') ?>/uploads/2018/02/gallery_02.jpg 1400w"
 																		sizes="(max-width: 275px) 100vw, 275px" />
 																</span> </a></div>
 													</div>
@@ -2869,8 +2867,8 @@
 							<div id="text-14" class="widget widget_text">
 								<div class="textwidget">
 									<p><a class="logo" href="index.html"><img
-												src="<?=base_url('assets/web')?>/uploads/2018/02/logo_1x_white.png" alt="Recond"
-												srcset="//recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/logo_1x_white.png 1x,//recond.like-themes.com/<?=base_url('assets/web')?>/uploads/2018/02/logo_2x_white.png 2x"></a><br />
+												src="<?= base_url('assets/web') ?>/uploads/2018/02/logo_1x_white.png" alt="Recond"
+												srcset="<?= base_url('assets/web') ?>/uploads/2018/02/logo_1x_white.png 1x,<?= base_url('assets/web') ?>/uploads/2018/02/logo_2x_white.png 2x"></a><br />
 										Curabitur viverra, nisi sit amet pharetra ultricies, ligula purus tristique leo,
 										sed mattis urna neque et tortor.</p>
 								</div>
@@ -2982,10 +2980,10 @@
 			<div class="ltx-level level9"></div>
 		</div><span class="txt">Go top</span>
 	</a>
-	<div class="lt-custom-popup" data-image="<?=base_url('assets/web')?>/plugins/lt-custom/images/icon.png"></div>
+	<div class="lt-custom-popup" data-image="<?= base_url('assets/web') ?>/plugins/lt-custom/images/icon.png"></div>
 	<script>var tribe_l10n_datatables = { "aria": { "sort_ascending": ": activate to sort column ascending", "sort_descending": ": activate to sort column descending" }, "length_menu": "Show _MENU_ entries", "empty_table": "No data available in table", "info": "Showing _START_ to _END_ of _TOTAL_ entries", "info_empty": "Showing 0 to 0 of 0 entries", "info_filtered": "(filtered from _MAX_ total entries)", "zero_records": "No matching records found", "search": "Search:", "all_selected_text": "All items on this page were selected. ", "select_all_link": "Select all pages", "clear_selection": "Clear Selection.", "pagination": { "all": "All", "next": "Next", "previous": "Previous" }, "select": { "rows": { "0": "", "_": ": Selected %d rows", "1": ": Selected 1 row" } }, "datepicker": { "dayNames": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], "dayNamesShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"], "dayNamesMin": ["S", "M", "T", "W", "T", "F", "S"], "monthNames": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"], "monthNamesShort": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"], "monthNamesMin": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "nextText": "Next", "prevText": "Prev", "currentText": "Today", "closeText": "Done", "today": "Today", "clear": "Clear" } }; var tribe_system_info = { "sysinfo_optin_nonce": "59db97fd21", "clipboard_btn_text": "Copy to clipboard", "clipboard_copied_text": "System info copied", "clipboard_fail_text": "Press \"Cmd + C\" to copy" };</script>
 	
 	<script type="text/javascript" defer
-		src="<?=base_url('assets/web')?>/cache/autoptimize/js/autoptimize_13bdd901901c1cc0d367612e7894e314.js"></script>
+		src="<?= base_url('assets/web') ?>/cache/autoptimize/js/autoptimize_13bdd901901c1cc0d367612e7894e314.js"></script>
 </body>
 </html>

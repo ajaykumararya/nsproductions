@@ -10,6 +10,10 @@ class Page extends MY_Controller {
         $this->load->database();
         $this->load->model('exam_model');
     }
+
+    function not_found(){
+        echo '<h1>This page is not found..</h1>';
+    }
     function test(){
         $this->db->where('DATE(admit_card_time) <',date('Y-m-d'))->get('exam');
         // echo $this->db->last_query();
