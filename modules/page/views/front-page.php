@@ -68,6 +68,11 @@
 		nav.navbar .logo img {
 			max-height: 192px !important;
 		}
+		@media only screen and (max-width: 600px) {
+			nav.navbar .logo img {
+			max-height: 151px !important;
+		}
+		}
 	</style>
 	<!--[if lt IE 9]><link rel='stylesheet' id='vc_lte_ie9-css'  href='<?= base_url('assets/web') ?>/plugins/js_composer/assets/css/vc_lte_ie9.min.css' type='text/css' media='screen' /> <![endif]-->
 	<style id='js_composer_front-inline-css' type='text/css'>
@@ -126,11 +131,11 @@
 		</style>
 	</noscript>
 	<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
-	<link rel="icon" href="<?= base_url('assets/web') ?>/uploads/2018/02/cropped-favicon-48x48.png" sizes="32x32" />
-	<link rel="icon" href="<?= base_url('assets/web') ?>/uploads/2018/02/cropped-favicon-275x275.png" sizes="192x192" />
-	<link rel="apple-touch-icon-precomposed" href="<?= base_url('assets/web') ?>/uploads/2018/02/cropped-favicon-275x275.png" />
+	<link rel="icon" href="<?= base_url('upload/favicon.png') ?>" sizes="32x32" />
+	<link rel="icon" href="<?= base_url('upload/favicon.png') ?>" sizes="192x192" />
+	<link rel="apple-touch-icon-precomposed" href="<?= base_url('upload/favicon.png') ?>" />
 	<meta name="msapplication-TileImage"
-		content="<?= base_url('assets/web') ?>/uploads/2018/02/cropped-favicon-275x275.png" /> <noscript>
+		content="<?= base_url('upload/faicon.png') ?>" /> <noscript>
 		<style>
 			.wpb_animate_when_almost_visible {
 				opacity: 1;
@@ -306,7 +311,7 @@
 													data-zs-overlay="dots" data-zs-initzoom="1.2" data-zs-speed="20000"
 													data-zs-interval="6500" data-zs-switchSpeed="7000" data-zs-arrows=""
 													data-zs-bullets="true"
-													data-zs-src='["<?=base_url('upload/first-slider.jpg')?>","http://recond.like-themes.com/wp-content/uploads/2018/02/SLIDE_02.jpg","http://recond.like-themes.com/wp-content/uploads/2018/02/SLIDE_03.jpg","http://recond.like-themes.com/wp-content/uploads/2018/02/SLIDE_01.jpg"]'>
+													data-zs-src='["<?=base_url('upload/first1.jpg')?>","<?=base_url('upload/sound-mixer-studio.jpg')?>","<?=base_url('upload/third-slider.jpg')?>","http://recond.like-themes.com/wp-content/uploads/2018/02/SLIDE_02.jpg"]'>
 													<div class="ltx-social ltx-nav-second ltx-type-">
 														<ul>
 															<li><a href="#" target="_self"><span
@@ -473,15 +478,15 @@
 																			<div class="heading  heading-large header-outline-subheader align-left color-white transform-default icon-type-hidden heading-tag-h1"
 																				id="like_sc_header_718717784">
 																				<h1 class="header "><span
-																						class="ltx-mobile"><span> Vocal
-																						</span> Recording</span><span
+																						class="ltx-mobile"><span> Music
+																						</span> Production</span><span
 																						class="ltx-desktop"><svg
 																							viewbox="0 0 1100 120"><text
 																								x="2px" y="50%"
 																								alignment-baseline="central"
 																								dominant-baseline="middle">
-																								Vocal </text></svg>
-																						Recording</span></h1>
+																								Music </text></svg>
+																								Production</span></h1>
 																			</div>
 																			<div class="es-resp">
 																				<div class="visible-xl"
@@ -504,13 +509,7 @@
 																					<div
 																						class="wpb_text_column wpb_content_element ">
 																						<div class="wpb_wrapper">
-																							<p>Curabitur fermentum vitae
-																								eros eu porta. Curabitur
-																								et risus egestas,
-																								vulputate lacus eget,
-																								sodales odio. Mauris
-																								suscipit eleifend
-																								mauris.</p>
+																							<p></p>
 																						</div>
 																					</div>
 																				</div>
@@ -593,15 +592,15 @@
 																			<div class="heading  heading-large header-outline-subheader align-left color-white transform-default icon-type-hidden heading-tag-h1"
 																				id="like_sc_header_1088581134">
 																				<h1 class="header "><span
-																						class="ltx-mobile"><span> Audio
-																						</span> Mastering</span><span
+																						class="ltx-mobile"><span> Wedding
+																						</span> Photography</span><span
 																						class="ltx-desktop"><svg
 																							viewbox="0 0 1100 120"><text
 																								x="2px" y="50%"
 																								alignment-baseline="central"
 																								dominant-baseline="middle">
-																								Audio </text></svg>
-																						Mastering</span></h1>
+																								Wedding </text></svg>
+																								Photography</span></h1>
 																			</div>
 																			<div class="es-resp">
 																				<div class="visible-xl"
@@ -624,13 +623,7 @@
 																					<div
 																						class="wpb_text_column wpb_content_element ">
 																						<div class="wpb_wrapper">
-																							<p>Curabitur fermentum vitae
-																								eros eu porta. Curabitur
-																								et risus egestas,
-																								vulputate lacus eget,
-																								sodales odio. Mauris
-																								suscipit eleifend
-																								mauris.</p>
+																							<p></p>
 																						</div>
 																					</div>
 																				</div>
@@ -714,15 +707,15 @@
 																			<div class="heading  heading-large header-outline-subheader align-left color-white transform-default icon-type-hidden heading-tag-h1"
 																				id="like_sc_header_1088581134">
 																				<h1 class="header "><span
-																						class="ltx-mobile"><span> My Audio
-																						</span> Mastering</span><span
+																						class="ltx-mobile"><span> Podcast &
+																						</span> Many More</span><span
 																						class="ltx-desktop"><svg
 																							viewbox="0 0 1100 120"><text
 																								x="2px" y="50%"
 																								alignment-baseline="central"
 																								dominant-baseline="middle">
-																								My Audio </text></svg>
-																						Mastering</span></h1>
+																								Podcast &</text></svg>
+																						Many More</span></h1>
 																			</div>
 																			<div class="es-resp">
 																				<div class="visible-xl"
@@ -745,13 +738,7 @@
 																					<div
 																						class="wpb_text_column wpb_content_element ">
 																						<div class="wpb_wrapper">
-																							<p>Curabitur fermentum vitae
-																								eros eu porta. Curabitur
-																								et risus egestas,
-																								vulputate lacus eget,
-																								sodales odio. Mauris
-																								suscipit eleifend
-																								mauris.</p>
+																							<p></p>
 																						</div>
 																					</div>
 																				</div>
