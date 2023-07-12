@@ -494,7 +494,7 @@
 						</ul>
 					</li>
 
-					<li class="{pages}">
+					<li class="{videos}">
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-file-video-o"></i>
 							<span class="menu-text"> Video </span>

@@ -25,6 +25,10 @@
 		!function (e, a, t) { var n, r, o, i = a.createElement("canvas"), p = i.getContext && i.getContext("2d"); function s(e, t) { var a = String.fromCharCode, e = (p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0), i.toDataURL()); return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL() } function c(e) { var t = a.createElement("script"); t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t) } for (o = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, r = 0; r < o.length; r++)t.supports[o[r]] = function (e) { if (p && p.fillText) switch (p.textBaseline = "top", p.font = "600 32px Arial", e) { case "flag": return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]); case "emoji": return !s([129777, 127995, 8205, 129778, 127999], [129777, 127995, 8203, 129778, 127999]) }return !1 }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]); t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () { t.DOMReady = !0 }, t.supports.everything || (n = function () { t.readyCallback() }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () { "complete" === a.readyState && t.readyCallback() })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji), c(e.wpemoji))) }(window, document, window._wpemojiSettings);
 	</script>
 	<style type="text/css">
+        #slider-2-slide-2-layer-0{
+            letter-spacing: 1px!important;
+            font-size: 40px!important;
+        }
 		img.wp-smiley,
 		img.emoji {
 			display: inline !important;
@@ -1791,8 +1795,8 @@
 																								id="slider-2-slide-2-layer-0"
 																								data-type="text"
 																								data-xy="x:c;y:m;"
-																								data-text="w:normal;s:138,138,108,67;l:130,130,100,60;ls:-12px,-12px,-12px,-6px;fw:700;a:center;"
-																								data-dim="w:734px,734px,734px,311px;"
+																								data-text="w:normal;s:138,138,118,50;l:130,130,100,60;ls:-12px,-12px,-12px,-6px;fw:700;a:center;"
+																								data-dim="w:734px,734px,734px,734px;"
 																								data-rsp_o="off"
 																								data-rsp_bd="off"
 																								data-frame_0="rX:70deg;oZ:-50;"
@@ -1800,8 +1804,7 @@
 																								data-frame_1="oZ:-50;e:power4.inOut;st:100;sp:1750;sR:100;"
 																								data-frame_1_chars="e:power4.inOut;dir:middletoedge;d:10;"
 																								data-frame_999="o:0;st:w;sR:5750;"
-																								style="z-index:5;font-family:'Barlow Condensed';text-shadow: 0 2px 17px #050505, 0 3px 20px #e92b2b">N S  <br>
-																								P r o d u c t i o n ' s
+																								style="z-index:5;font-family:'Barlow Condensed';text-shadow:3px 1px 0 black">N.S.Production's
 																							</rs-layer><rs-layer
 																								id="slider-2-slide-2-layer-1"
 																								data-type="image"
