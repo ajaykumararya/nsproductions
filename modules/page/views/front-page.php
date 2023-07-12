@@ -2712,6 +2712,8 @@
 										</div>
 									</div>
 								</section>
+								<!---  27.17250969181639, 78.39458974496613 
+							27.17282467734347, 78.39354904559474-->
 								<div data-vc-full-width="true" data-vc-full-width-init="false"
 									data-vc-stretch-content="true"
 									class="vc_row wpb_row vc_row-fluid vc_row-no-padding">
@@ -2838,6 +2840,22 @@
 									</div>
 								</div>
 								<div class="vc_row-full-width vc_clearfix"></div>
+								<div data-vc-full-width="true" data-vc-full-width-init="false"
+									data-vc-stretch-content="true"
+									class="vc_row wpb_row vc_row-fluid vc_row-no-padding">
+									<div class="wpb_column vc_column_container vc_col-sm-12">
+										<div class="vc_column-inner">
+											<div class="wpb_wrapper">
+												<div id="like_sc_google_maps_153385408"
+													data-marker="http://recond.like-themes.com/wp-content/themes/recond/assets/images/location.png"
+													class="ltx-google-maps    vc_custom_1538491575778"
+													data-style="yellow" data-lng="78.39354904559474" data-lat="27.17282467734347"
+													data-zoom="11" style="width: 100%; height: 450px;"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="vc_row-full-width vc_clearfix"></div>
 							</div>
 						</article>
 					</div>
@@ -2854,8 +2872,8 @@
 							<div id="text-14" class="widget widget_text">
 								<div class="textwidget">
 									<p><a class="logo" href="index.html"><img
-												src="<?= base_url('assets/web') ?>/uploads/2018/02/logo_1x_white.png" alt="Recond"
-												srcset="<?= base_url('assets/web') ?>/uploads/2018/02/logo_1x_white.png 1x,<?= base_url('assets/web') ?>/uploads/2018/02/logo_2x_white.png 2x"></a><br />
+									src="<?= base_url('upload/white-logo.png') ?>" alt="Logo"
+									srcset="<?= base_url('upload/white-logo.png') ?>"></a><br />
 										Curabitur viverra, nisi sit amet pharetra ultricies, ligula purus tristique leo,
 										sed mattis urna neque et tortor.</p>
 								</div>
@@ -2969,6 +2987,8 @@
 	</a>
 	<div class="lt-custom-popup" data-image="<?= base_url('assets/web') ?>/plugins/lt-custom/images/icon.png"></div>
 	<script>var tribe_l10n_datatables = { "aria": { "sort_ascending": ": activate to sort column ascending", "sort_descending": ": activate to sort column descending" }, "length_menu": "Show _MENU_ entries", "empty_table": "No data available in table", "info": "Showing _START_ to _END_ of _TOTAL_ entries", "info_empty": "Showing 0 to 0 of 0 entries", "info_filtered": "(filtered from _MAX_ total entries)", "zero_records": "No matching records found", "search": "Search:", "all_selected_text": "All items on this page were selected. ", "select_all_link": "Select all pages", "clear_selection": "Clear Selection.", "pagination": { "all": "All", "next": "Next", "previous": "Previous" }, "select": { "rows": { "0": "", "_": ": Selected %d rows", "1": ": Selected 1 row" } }, "datepicker": { "dayNames": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], "dayNamesShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"], "dayNamesMin": ["S", "M", "T", "W", "T", "F", "S"], "monthNames": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"], "monthNamesShort": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"], "monthNamesMin": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "nextText": "Next", "prevText": "Prev", "currentText": "Today", "closeText": "Done", "today": "Today", "clear": "Clear" } }; var tribe_system_info = { "sysinfo_optin_nonce": "59db97fd21", "clipboard_btn_text": "Copy to clipboard", "clipboard_copied_text": "System info copied", "clipboard_fail_text": "Press \"Cmd + C\" to copy" };</script>
+	<script type='text/javascript'
+		src='https://maps.googleapis.com/maps/api/js?v=3&amp;key=AIzaSyASypby3_5qo_HURUtm8y1fClkh5JfDXso&amp;ver=4.9.23'></script>
 	
 	<script type="text/javascript" defer
 		src="<?= base_url('assets/web') ?>/cache/autoptimize/js/autoptimize_13bdd901901c1cc0d367612e7894e314.js"></script>
