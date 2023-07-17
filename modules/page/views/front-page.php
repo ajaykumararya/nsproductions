@@ -37,7 +37,25 @@
 			font-weight: normal;
 			font-style: normal;
 		}
-
+		@media (max-width: 991px){
+			.ltx-desktop{
+				display:block!important;
+			}
+			.ltx-mobile{
+				display:none!important;
+			}
+			.heading.header-outline-subheader{
+				height:30vh!important;
+			}
+			.heading.header-outline-subheader svg {
+				margin-left: 113px!important;
+				margin-bottom:0px!important;
+			}
+			.heading.header-outline-subheader text {
+				font-size: 3em!important;
+				stroke-width: 2px!important;
+			}
+		}
 		:root {
 			--black: #282834;
 			--black-darker: #000002;
@@ -311,7 +329,7 @@
 													data-zs-overlay="dots" data-zs-initzoom="1.2" data-zs-speed="20000"
 													data-zs-interval="6500" data-zs-switchSpeed="7000" data-zs-arrows=""
 													data-zs-bullets="true"
-													data-zs-src='["<?=base_url('upload/first1.jpg')?>","<?=base_url('upload/sound-mixer-studio.jpg')?>","<?=base_url('upload/third-slider.jpg')?>","http://recond.like-themes.com/wp-content/uploads/2018/02/SLIDE_02.jpg"]'>
+													data-zs-src='["<?= base_url('upload/first1.jpg') ?>","<?= base_url('upload/sound-mixer-studio.jpg') ?>","<?= base_url('upload/third-slider.jpg') ?>","http://recond.like-themes.com/wp-content/uploads/2018/02/SLIDE_02.jpg"]'>
 													<div class="ltx-social ltx-nav-second ltx-type-">
 														<ul>
 															<li><a href="#" target="_self"><span
@@ -362,7 +380,8 @@
 																					<span
 																						class="ltx-mobile"><span>
 																							Video </span>
-																						Production</span><span
+																						Production</span>
+																						<span
 																						class="ltx-desktop">
 																						<svg
 																							viewbox="0 0 1100 120"><text

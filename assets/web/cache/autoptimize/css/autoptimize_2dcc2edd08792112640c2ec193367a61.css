@@ -379,7 +379,7 @@ div.wpcf7 .wpcf7-submit:disabled {
     left: 0;
     width: 150px;
     height: 150px;
-    background: url(//recond.like-themes.com/wp-content/plugins/lt-custom/css/../images/colorpicker_overlay.png)
+    background: url(../../../plugins/lt-custom/css/../images/colorpicker_overlay.png)
 }
 
 .colorpicker_color div div {
@@ -1272,15 +1272,15 @@ div.wpcf7 .wpcf7-submit:disabled {
 @font-face {
     font-family: star;
     src: url(../../../plugins/woocommerce/assets/fonts/star.eot);
-    src: url(//recond.like-themes.com/wp-content/plugins/woocommerce/assets/css/../fonts/star.eot?#iefix) format("embedded-opentype"), url(//recond.like-themes.com/wp-content/plugins/woocommerce/assets/css/../fonts/star.woff) format("woff"), url(//recond.like-themes.com/wp-content/plugins/woocommerce/assets/css/../fonts/star.ttf) format("truetype"), url(//recond.like-themes.com/wp-content/plugins/woocommerce/assets/css/../fonts/star.svg#star) format("svg");
+    src: url(../../../plugins/woocommerce/assets/css/../fonts/star.eot?#iefix) format("embedded-opentype"), url(../../../plugins/woocommerce/assets/css/../fonts/star.woff) format("woff"), url(../../../plugins/woocommerce/assets/css/../fonts/star.ttf) format("truetype"), url(../../../plugins/woocommerce/assets/css/../fonts/star.svg#star) format("svg");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: WooCommerce;
-    src: url(//recond.like-themes.com/wp-content/plugins/woocommerce/assets/css/../fonts/WooCommerce.eot);
-    src: url(//recond.like-themes.com/wp-content/plugins/woocommerce/assets/css/../fonts/WooCommerce.eot?#iefix) format("embedded-opentype"), url(//recond.like-themes.com/wp-content/plugins/woocommerce/assets/css/../fonts/WooCommerce.woff) format("woff"), url(//recond.like-themes.com/wp-content/plugins/woocommerce/assets/css/../fonts/WooCommerce.ttf) format("truetype"), url(//recond.like-themes.com/wp-content/plugins/woocommerce/assets/css/../fonts/WooCommerce.svg#WooCommerce) format("svg");
+    src: url(../../../plugins/woocommerce/assets/css/../fonts/WooCommerce.eot);
+    src: url(../../../plugins/woocommerce/assets/css/../fonts/WooCommerce.eot?#iefix) format("embedded-opentype"), url(../../../plugins/woocommerce/assets/css/../fonts/WooCommerce.woff) format("woff"), url(../../../plugins/woocommerce/assets/css/../fonts/WooCommerce.ttf) format("truetype"), url(../../../plugins/woocommerce/assets/css/../fonts/WooCommerce.svg#WooCommerce) format("svg");
     font-weight: 400;
     font-style: normal
 }
@@ -1342,7 +1342,7 @@ p.demo_store a {
     content: '';
     -webkit-animation: spin 1s ease-in-out infinite;
     animation: spin 1s ease-in-out infinite;
-    background: url(//recond.like-themes.com/wp-content/plugins/woocommerce/assets/css/../images/icons/loader.svg) center center;
+    background: url(../../../plugins/woocommerce/assets/css/../images/icons/loader.svg) center center;
     background-size: cover;
     line-height: 1;
     text-align: center;
@@ -1362,7 +1362,7 @@ p.demo_store a {
     content: '';
     -webkit-animation: spin 1s ease-in-out infinite;
     animation: spin 1s ease-in-out infinite;
-    background: url(//recond.like-themes.com/wp-content/plugins/woocommerce/assets/css/../images/icons/loader.svg) center center;
+    background: url(../../../plugins/woocommerce/assets/css/../images/icons/loader.svg) center center;
     background-size: cover;
     line-height: 1;
     text-align: center;
@@ -3775,7 +3775,7 @@ p.demo_store a {
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.visa,
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.visa,
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.visa {
-    background-image: url(//recond.like-themes.com/wp-content/plugins/woocommerce/assets/css/../images/icons/credit-cards/visa.svg)
+    background-image: url(../../../plugins/woocommerce/assets/css/../images/icons/credit-cards/visa.svg)
 }
 
 #add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.mastercard,
@@ -3787,7 +3787,7 @@ p.demo_store a {
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.mastercard,
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.mastercard,
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.mastercard {
-    background-image: url(//recond.like-themes.com/wp-content/plugins/woocommerce/assets/css/../images/icons/credit-cards/mastercard.svg)
+    background-image: url(../../../plugins/woocommerce/assets/css/../images/icons/credit-cards/mastercard.svg)
 }
 
 #add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.laser,
@@ -3799,7 +3799,7 @@ p.demo_store a {
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.laser,
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.laser,
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.laser {
-    background-image: url(//recond.like-themes.com/wp-content/plugins/woocommerce/assets/css/../images/icons/credit-cards/laser.svg)
+    background-image: url(../../../plugins/woocommerce/assets/css/../images/icons/credit-cards/laser.svg)
 }
 
 #add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.dinersclub,
@@ -3811,7 +3811,7 @@ p.demo_store a {
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.dinersclub,
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.dinersclub,
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.dinersclub {
-    background-image: url(//recond.like-themes.com/wp-content/plugins/woocommerce/assets/css/../images/icons/credit-cards/diners.svg)
+    background-image: url(../../../plugins/woocommerce/assets/css/../images/icons/credit-cards/diners.svg)
 }
 
 #add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.maestro,
@@ -3823,7 +3823,7 @@ p.demo_store a {
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.maestro,
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.maestro,
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.maestro {
-    background-image: url(//recond.like-themes.com/wp-content/plugins/woocommerce/assets/css/../images/icons/credit-cards/maestro.svg)
+    background-image: url(../../../plugins/woocommerce/assets/css/../images/icons/credit-cards/maestro.svg)
 }
 
 #add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.jcb,
@@ -3835,7 +3835,7 @@ p.demo_store a {
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.jcb,
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.jcb,
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.jcb {
-    background-image: url(//recond.like-themes.com/wp-content/plugins/woocommerce/assets/css/../images/icons/credit-cards/jcb.svg)
+    background-image: url(../../../plugins/woocommerce/assets/css/../images/icons/credit-cards/jcb.svg)
 }
 
 #add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.amex,
@@ -3847,7 +3847,7 @@ p.demo_store a {
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.amex,
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.amex,
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.amex {
-    background-image: url(//recond.like-themes.com/wp-content/plugins/woocommerce/assets/css/../images/icons/credit-cards/amex.svg)
+    background-image: url(../../../plugins/woocommerce/assets/css/../images/icons/credit-cards/amex.svg)
 }
 
 #add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.discover,
@@ -3859,7 +3859,7 @@ p.demo_store a {
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.discover,
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.discover,
 .woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.discover {
-    background-image: url(//recond.like-themes.com/wp-content/plugins/woocommerce/assets/css/../images/icons/credit-cards/discover.svg)
+    background-image: url(../../../plugins/woocommerce/assets/css/../images/icons/credit-cards/discover.svg)
 }
 
 #add_payment_method #payment div.payment_box span.help,
@@ -4308,7 +4308,7 @@ th {
 @font-face {
     font-family: 'Glyphicons Halflings';
     src: url(../../../themes/recond/assets/fonts/glyphicons-halflings-regular.html);
-    src: url(//recond.like-themes.com/wp-content/themes/recond/assets/css/../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(//recond.like-themes.com/wp-content/themes/recond/assets/css/../fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(//recond.like-themes.com/wp-content/themes/recond/assets/css/../fonts/glyphicons-halflings-regular.woff) format('woff'), url(//recond.like-themes.com/wp-content/themes/recond/assets/css/../fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(//recond.like-themes.com/wp-content/themes/recond/assets/css/../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
+    src: url(../../../themes/recond/assets/css/../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(../../../themes/recond/assets/css/../fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(../../../themes/recond/assets/css/../fonts/glyphicons-halflings-regular.woff) format('woff'), url(../../../themes/recond/assets/css/../fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(../../../themes/recond/assets/css/../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
 }
 
 .glyphicon {
@@ -19814,7 +19814,7 @@ p.has-large-font-size {
 @font-face {
     font-family: 'ltx-font';
     src: url(../../../themes/recond/assets/fonts/ltx-font99a5.eot?67100412);
-    src: url(//recond.like-themes.com/wp-content/themes/recond/assets/fonts/ltx-font.eot?67100412#iefix) format('embedded-opentype'), url(//recond.like-themes.com/wp-content/themes/recond/assets/fonts/ltx-font.woff2?67100412) format('woff2'), url(//recond.like-themes.com/wp-content/themes/recond/assets/fonts/ltx-font.woff?67100412) format('woff'), url(//recond.like-themes.com/wp-content/themes/recond/assets/fonts/ltx-font.ttf?67100412) format('truetype'), url(//recond.like-themes.com/wp-content/themes/recond/assets/fonts/ltx-font.svg?67100412#ltx-font) format('svg');
+    src: url(../../../themes/recond/assets/fonts/ltx-font.eot?67100412#iefix) format('embedded-opentype'), url(../../../themes/recond/assets/fonts/ltx-font.woff2?67100412) format('woff2'), url(../../../themes/recond/assets/fonts/ltx-font.woff?67100412) format('woff'), url(../../../themes/recond/assets/fonts/ltx-font.ttf?67100412) format('truetype'), url(../../../themes/recond/assets/fonts/ltx-font.svg?67100412#ltx-font) format('svg');
     font-weight: 400;
     font-style: normal
 }
@@ -43328,7 +43328,7 @@ form.mc4wp-form p label input[type=checkbox] {
 @font-face {
     font-family: FontAwesome;
     src: url(../../../plugins/js_composer/assets/lib/bower/font-awesome/fonts/fontawesome-webfont3e6e.eot?v=4.7.0);
-    src: url(../../../plugins/js_composer/assets/lib/bower/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format('embedded-opentype'), url(//recond.like-themes.com/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0) format('woff2'), url(../../../plugins/js_composer/assets/lib/bower/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0) format('woff'), url(../../../plugins/js_composer/assets/lib/bower/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0) format('truetype'), url(../../../plugins/js_composer/assets/lib/bower/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format('svg');
+    src: url(../../../plugins/js_composer/assets/lib/bower/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format('embedded-opentype'), url(../../../plugins/js_composer/assets/lib/bower/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0) format('woff2'), url(../../../plugins/js_composer/assets/lib/bower/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0) format('woff'), url(../../../plugins/js_composer/assets/lib/bower/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0) format('truetype'), url(../../../plugins/js_composer/assets/lib/bower/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format('svg');
     font-weight: 400;
     font-style: normal
 }
@@ -48660,8 +48660,8 @@ a.ig-b-v-24:hover {
 
 @font-face {
     font-family: vcpb-plugin-icons;
-    src: url(//recond.like-themes.com/wp-content/plugins/js_composer/assets/css/../fonts/vc_icons_v2/fonts/vcpb-plugin-icons.eot?f6ud62);
-    src: url(//recond.like-themes.com/wp-content/plugins/js_composer/assets/css/../fonts/vc_icons_v2/fonts/vcpb-plugin-icons.eot?f6ud62#iefix) format('embedded-opentype'), url(//recond.like-themes.com/wp-content/plugins/js_composer/assets/css/../fonts/vc_icons_v2/fonts/vcpb-plugin-icons.ttf?f6ud62) format('truetype'), url(//recond.like-themes.com/wp-content/plugins/js_composer/assets/css/../fonts/vc_icons_v2/fonts/vcpb-plugin-icons.woff?f6ud62) format('woff'), url(//recond.like-themes.com/wp-content/plugins/js_composer/assets/css/../fonts/vc_icons_v2/fonts/vcpb-plugin-icons.svg?f6ud62#vcpb-plugin-icons) format('svg');
+    src: url(../../../plugins/js_composer/assets/css/../fonts/vc_icons_v2/fonts/vcpb-plugin-icons.eot?f6ud62);
+    src: url(../../../plugins/js_composer/assets/css/../fonts/vc_icons_v2/fonts/vcpb-plugin-icons.eot?f6ud62#iefix) format('embedded-opentype'), url(../../../plugins/js_composer/assets/css/../fonts/vc_icons_v2/fonts/vcpb-plugin-icons.ttf?f6ud62) format('truetype'), url(../../../plugins/js_composer/assets/css/../fonts/vc_icons_v2/fonts/vcpb-plugin-icons.woff?f6ud62) format('woff'), url(../../../plugins/js_composer/assets/css/../fonts/vc_icons_v2/fonts/vcpb-plugin-icons.svg?f6ud62#vcpb-plugin-icons) format('svg');
     font-weight: 400;
     font-style: normal
 }
@@ -64045,7 +64045,7 @@ body .wpb_gallery_slides ul li {
 
 .vc_grid-item-mini.vc_is-hover .vc_gitem-animate-blurOut .vc_gitem-zone-a,
 .vc_grid-item-mini.vc_is-hover .vc_gitem-animate-blurScaleOut .vc_gitem-zone-a {
-    filter: url(//recond.like-themes.com/wp-content/plugins/js_composer/assets/css/../vc/blur.svg#blur);
+    filter: url(../../../plugins/js_composer/assets/css/../vc/blur.svg#blur);
     -webkit-filter: blur(2px);
     -moz-filter: blur(2px);
     -ms-filter: blur(2px);
@@ -66592,8 +66592,8 @@ body .wpb_gallery_slides ul li {
 
 @font-face {
     font-family: vc_grid_v1;
-    src: url(//recond.like-themes.com/wp-content/plugins/js_composer/assets/css/../fonts/vc_grid/vc_grid_v1.eot?-9hbgac);
-    src: url(//recond.like-themes.com/wp-content/plugins/js_composer/assets/css/../fonts/vc_grid/vc_grid_v1.eot?#iefix-9hbgac) format('embedded-opentype'), url(//recond.like-themes.com/wp-content/plugins/js_composer/assets/css/../fonts/vc_grid/vc_grid_v1.woff?-9hbgac) format('woff'), url(//recond.like-themes.com/wp-content/plugins/js_composer/assets/css/../fonts/vc_grid/vc_grid_v1.ttf?-9hbgac) format('truetype'), url(//recond.like-themes.com/wp-content/plugins/js_composer/assets/css/../fonts/vc_grid/vc_grid_v1.svg?-9hbgac#vc_grid_v1) format('svg');
+    src: url(../../../plugins/js_composer/assets/css/../fonts/vc_grid/vc_grid_v1.eot?-9hbgac);
+    src: url(../../../plugins/js_composer/assets/css/../fonts/vc_grid/vc_grid_v1.eot?#iefix-9hbgac) format('embedded-opentype'), url(../../../plugins/js_composer/assets/css/../fonts/vc_grid/vc_grid_v1.woff?-9hbgac) format('woff'), url(../../../plugins/js_composer/assets/css/../fonts/vc_grid/vc_grid_v1.ttf?-9hbgac) format('truetype'), url(../../../plugins/js_composer/assets/css/../fonts/vc_grid/vc_grid_v1.svg?-9hbgac#vc_grid_v1) format('svg');
     font-weight: 400;
     font-style: normal
 }
@@ -67391,7 +67391,7 @@ body .wpb_gallery_slides ul li {
 @font-face {
     font-family: 'FontAwesome';
     src: url(../../../plugins/unyson/framework/static/libs/font-awesome/fonts/fontawesome-webfont3e6e.eot?v=4.7.0);
-    src: url(//recond.like-themes.com/wp-content/plugins/unyson/framework/static/libs/font-awesome/css/../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format('embedded-opentype'), url(//recond.like-themes.com/wp-content/plugins/unyson/framework/static/libs/font-awesome/css/../fonts/fontawesome-webfont.woff2?v=4.7.0) format('woff2'), url(//recond.like-themes.com/wp-content/plugins/unyson/framework/static/libs/font-awesome/css/../fonts/fontawesome-webfont.woff?v=4.7.0) format('woff'), url(//recond.like-themes.com/wp-content/plugins/unyson/framework/static/libs/font-awesome/css/../fonts/fontawesome-webfont.ttf?v=4.7.0) format('truetype'), url(//recond.like-themes.com/wp-content/plugins/unyson/framework/static/libs/font-awesome/css/../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format('svg');
+    src: url(../../../plugins/unyson/framework/static/libs/font-awesome/css/../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format('embedded-opentype'), url(../../../plugins/unyson/framework/static/libs/font-awesome/css/../fonts/fontawesome-webfont.woff2?v=4.7.0) format('woff2'), url(../../../plugins/unyson/framework/static/libs/font-awesome/css/../fonts/fontawesome-webfont.woff?v=4.7.0) format('woff'), url(../../../plugins/unyson/framework/static/libs/font-awesome/css/../fonts/fontawesome-webfont.ttf?v=4.7.0) format('truetype'), url(../../../plugins/unyson/framework/static/libs/font-awesome/css/../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format('svg');
     font-weight: normal;
     font-style: normal
 }
@@ -70435,7 +70435,7 @@ body .wpb_gallery_slides ul li {
 @font-face {
     font-family: 'entypo';
     src: url(../../../plugins/unyson/framework/static/libs/entypo/fonts/entypo.eot);
-    src: url(//recond.like-themes.com/wp-content/plugins/unyson/framework/static/libs/entypo/css/../fonts/entypo.eot?#iefix) format('embedded-opentype'), url(//recond.like-themes.com/wp-content/plugins/unyson/framework/static/libs/entypo/css/../fonts/entypo.woff) format('woff'), url(//recond.like-themes.com/wp-content/plugins/unyson/framework/static/libs/entypo/css/../fonts/entypo.ttf) format('truetype'), url(//recond.like-themes.com/wp-content/plugins/unyson/framework/static/libs/entypo/css/../fonts/entypo.svg#entypo) format('svg');
+    src: url(../../../plugins/unyson/framework/static/libs/entypo/css/../fonts/entypo.eot?#iefix) format('embedded-opentype'), url(../../../plugins/unyson/framework/static/libs/entypo/css/../fonts/entypo.woff) format('woff'), url(../../../plugins/unyson/framework/static/libs/entypo/css/../fonts/entypo.ttf) format('truetype'), url(../../../plugins/unyson/framework/static/libs/entypo/css/../fonts/entypo.svg#entypo) format('svg');
     font-weight: 400;
     font-style: normal
 }
@@ -72299,7 +72299,7 @@ body .wpb_gallery_slides ul li {
     font-weight: 400;
     font-style: normal;
     src: url(../../../plugins/unyson/framework/static/libs/typcn/fonts/typicons.eot);
-    src: url(//recond.like-themes.com/wp-content/plugins/unyson/framework/static/libs/typcn/css/../fonts/typicons.eot?#iefix) format('embedded-opentype'), url(//recond.like-themes.com/wp-content/plugins/unyson/framework/static/libs/typcn/css/../fonts/typicons.woff) format('woff'), url(//recond.like-themes.com/wp-content/plugins/unyson/framework/static/libs/typcn/css/../fonts/typicons.ttf) format('truetype'), url(//recond.like-themes.com/wp-content/plugins/unyson/framework/static/libs/typcn/css/../fonts/typicons.svg#typicons) format('svg')
+    src: url(../../../plugins/unyson/framework/static/libs/typcn/css/../fonts/typicons.eot?#iefix) format('embedded-opentype'), url(../../../plugins/unyson/framework/static/libs/typcn/css/../fonts/typicons.woff) format('woff'), url(../../../plugins/unyson/framework/static/libs/typcn/css/../fonts/typicons.ttf) format('truetype'), url(../../../plugins/unyson/framework/static/libs/typcn/css/../fonts/typicons.svg#typicons) format('svg')
 }
 
 .typcn:before {
@@ -73666,7 +73666,7 @@ body .wpb_gallery_slides ul li {
 @font-face {
     font-family: 'Unycon';
     src: url(../../../plugins/unyson/framework/static/libs/unycon/fonts/Unyconfda5.eot?-s8ws3j);
-    src: url(//recond.like-themes.com/wp-content/plugins/unyson/framework/static/libs/unycon/fonts/Unycon.eot?#iefix-s8ws3j) format('embedded-opentype'), url(//recond.like-themes.com/wp-content/plugins/unyson/framework/static/libs/unycon/fonts/Unycon.ttf?-s8ws3j) format('truetype'), url(//recond.like-themes.com/wp-content/plugins/unyson/framework/static/libs/unycon/fonts/Unycon.woff?-s8ws3j) format('woff'), url(//recond.like-themes.com/wp-content/plugins/unyson/framework/static/libs/unycon/fonts/Unycon.svg?-s8ws3j#Unycon) format('svg');
+    src: url(../../../plugins/unyson/framework/static/libs/unycon/fonts/Unycon.eot?#iefix-s8ws3j) format('embedded-opentype'), url(../../../plugins/unyson/framework/static/libs/unycon/fonts/Unycon.ttf?-s8ws3j) format('truetype'), url(../../../plugins/unyson/framework/static/libs/unycon/fonts/Unycon.woff?-s8ws3j) format('woff'), url(../../../plugins/unyson/framework/static/libs/unycon/fonts/Unycon.svg?-s8ws3j#Unycon) format('svg');
     font-weight: 400;
     font-style: normal
 }
