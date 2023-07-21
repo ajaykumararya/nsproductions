@@ -48,7 +48,7 @@
 				height:30vh!important;
 			}
 			.heading.header-outline-subheader svg {
-				margin-left: 113px!important;
+				margin-left: 45px!important;
 				margin-bottom:0px!important;
 			}
 			.heading.header-outline-subheader text {
